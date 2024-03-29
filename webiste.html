@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Website Page || Book a pitch cms</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!----css3---->
+    <link rel="stylesheet" href="css/earning-page.css" />
+    <link rel="stylesheet" href="css/website.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <!--google material icon-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-bjeLJdBT2DHvUKrxz2Pz73Okt7YfIgqz0gpr8bUdZHgym8sXsCxw+hpUkkVsmjgLON8/1gR/zDme3ODp7kpF3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://cdn.ckeditor.com/ckeditor5/36.0.0/classic/ckeditor.js">
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="body-overlay"></div>
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="./img/logo (2).png" class="img-fluid" />
+            </div>
+            <ul class="list-unstyled components">
+                <li class="">
+                    <a href="index.html" class="dashboard">
+                        <i class="material-symbols-outlined">keyboard_command_key</i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="bookings.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            bar_chart
+                        </i>
+                        <span>Bookings</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="index.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            description
+                        </i>
+                        <span>Sports Listing</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="earning-page.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            account_balance_wallet
+                        </i>
+                        <span>Earnings</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="webiste.html" class="dashboard">
+                        <i class="material-icons">desktop_windows</i>
+                        <span>Website</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="index.html" class="dashboard">
+                        <i class="material-icons">person</i>
+                        <span>Staff</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="hours-of-availability.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            manage_history
+                        </i>
+                        <span>
+                            Hours of Availability
+                        </span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="pricing.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            sell
+                        </i>
+                        <span>
+                            Pricing
+                        </span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="index.html" class="dashboard">
+                        <i class="material-icons">help_outline</i>
+                        <span>Help</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content -->
+        <div id="content">
+            <div class="top-navbar">
+                <!-- sidebar toggle btns -->
+                <div class="d-flex align-items-center">
+                    <button class="d-block d-lg-none me-5 more-button" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent">
+                        <img src="./img/menu_icon.png" alt="" class="menu_icon ms-2" />
+                    </button>
+                    <div class="d-flex align-items-center justify-content-between  ">
+                        <div class="border_right1">
+                            <h5 class="fw-bold">Manage Website</h5>
+                        </div>
+                        <div class="mx-3 mt-3">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item  text_blue active" aria-current="page">Website</li>
+                                    <li class="breadcrumb-item">General Setting</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- profile -->
+                <div class="d-flex align-items-center justify-content-between gap-lg-4 gap-md-3 gap-sm-1">
+                    <img src="img/Notification.svg" alt="" />
+                    <div class="Vr"></div>
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="profile-img"></div>
+                        <span class="name">John Doe</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Main content -->
+
+            <section>
+                <div class="container">
+                    <div class="">
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                                <div class="">
+                                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                        aria-orientation="vertical">
+                                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                            data-bs-target="#v-pills-home" type="button" role="tab"
+                                            aria-controls="v-pills-home" aria-selected="true">
+                                            <div class="text-start">
+                                                <span><i class="fas fa-gear"></i></span> General
+                                            </div>
+                                        </button>
+                                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                            data-bs-target="#v-pills-profile" type="button" role="tab"
+                                            aria-controls="v-pills-profile" aria-selected="false">
+                                            <div class="text-start">
+                                                <span><i class="fas fa-link"></i></span> Social Media
+                                            </div>
+                                        </button>
+                                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                            data-bs-target="#v-pills-messages" type="button" role="tab"
+                                            aria-controls="v-pills-messages" aria-selected="false">
+                                            <div class="text-start">
+                                                <span><i class="fas fa-file-lines"></i></span> Term & Conditions
+                                            </div>
+                                        </button>
+                                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                            data-bs-target="#v-pills-settings" type="button" role="tab"
+                                            aria-controls="v-pills-settings" aria-selected="false">
+                                            <div class="text-start">
+                                                <span><i class="fas fa-file-circle-check"></i></span> Privacy Policy
+                                            </div>
+                                        </button>
+                                        <button class="nav-link" id="v-pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#v-pills-contact" type="button" role="tab"
+                                            aria-controls="v-pills-contact" aria-selected="false">
+                                            <div class="text-start">
+                                                <span><i class="fas fa-calendar"></i></span>
+                                                Contact Page
+                                            </div>
+                                        </button>
+                                        <button class="nav-link" id="v-pills-tdesign-tab" data-bs-toggle="pill"
+                                            data-bs-target="#v-pills-tdesign" type="button" role="tab"
+                                            aria-controls="v-pills-tdesign" aria-selected="false">
+                                            <div class="text-start">
+                                                <span><i class="fas fa-image"></i></span> Template Design
+
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                                <div class="main">
+                                    <div class="px-md-3 py-md-3">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                                aria-labelledby="v-pills-home-tab">
+                                                <div class="p-3">
+                                                    <div class="row g-3 align-items-center justify-content-center">
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                            <div
+                                                                class="row align-items-center justify-content-center g-sm-3 my-3">
+                                                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="border p-3">
+                                                                            <img src="../img/logo7.png"
+                                                                                class="img-fluid" alt="">
+                                                                        </div>
+                                                                        <div class="px-2">
+                                                                            <input type="file" id="fileUpload"
+                                                                                style="display: none;" />
+                                                                            <button
+                                                                                class="btn btn_green text-white px-2 py-1 mb-2"
+                                                                                onclick="document.getElementById('fileUpload').click();">Upload</button>
+                                                                            <p class="ft_14">Allowed JPG, JPEG, or <br>
+                                                                                PNG, SVG Max
+                                                                                size of 800KB</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="">
+                                                                            <h6>banner</h6>
+                                                                            <img src="../img/logo8.png" alt="">
+                                                                        </div>
+                                                                        <div class="px-2">
+                                                                            <input type="file" id="fileUpload"
+                                                                                style="display: none;" />
+                                                                            <button
+                                                                                class="btn btn_green text-white px-2 py-1 mb-2"
+                                                                                onclick="document.getElementById('fileUpload').click();">Upload</button>
+                                                                            <p class="ft_14">Allowed JPG, JPEG, or <br>
+                                                                                PNG, SVG Max
+                                                                                size of 800KB</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                                            <div
+                                                                class="row align-items-center justify-content-between g-3">
+                                                                <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                                                                    <div class="">
+                                                                        <h5 class="fw-bold">Banner Headline</h5>
+                                                                        <div class="border p-3">
+                                                                            <p class="mb-3">Welcome to Harborne Academy
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                                    <div class="">
+                                                                        <div class="text-center">
+                                                                            <!-- Upload input field -->
+                                                                            <div class="custom-upload"
+                                                                                onclick="triggerUpload()">
+                                                                                <input type="file"
+                                                                                    class="form-control-file"
+                                                                                    style="display: none;"
+                                                                                    id="uploadInput"
+                                                                                    aria-describedby="uploadHelp">
+                                                                                <h5 id="uploadHelp"
+                                                                                    class="form-text fw-bold ">Drop
+                                                                                    About us section Images here</h5>
+                                                                                <div class="mt-3">
+                                                                                    <i class="fas fa-upload ft-16"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="">
+                                                                <h5 class="fw-bold ">About us Description</h5>
+                                                                <div class="border p-3">
+                                                                    <p class="pb-5">
+                                                                        We're your one-stop-shop for playing tennis in
+                                                                        Newbury and
+                                                                        Thatcham! We offer pay & play and affordable
+                                                                        household
+                                                                        memberships that make it super easy to pick up a
+                                                                        racket. We aim
+                                                                        to make tennis easily accessible with low
+                                                                        charges, professional
+                                                                        organisation and engaging activities for the
+                                                                        local community.
+                                                                        Our focus is to promote tennis throughout the
+                                                                        year for all age
+                                                                        groups, both adults and children, through social
+                                                                        play, internal
+                                                                        competition, matches, and professional coaching
+                                                                        to any player
+                                                                        who wants to improve their game.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div
+                                                                class="row justify-content-start align-items-center g-3">
+                                                                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                    <div class="text-center mt-md-4">
+                                                                        <button class="btn btn_green w-100 py-md-2">
+                                                                            Save Settings
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                    <div class="text-center mt-md-4">
+                                                                        <button
+                                                                            class="btn btn_green_outline w-100 py-md-2">
+                                                                            Cancel
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                                aria-labelledby="v-pills-profile-tab">
+                                                <div class="">
+                                                    <form>
+                                                        <div class="row g-3">
+                                                            <div class="col-md-6">
+                                                                <label for="your-name" class="form-label">
+                                                                    Instagram
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-name" name="your-name"
+                                                                    value="https://www.instagram.com/liketayyab/"
+                                                                    required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-surname" class="form-label">
+                                                                    Facebook
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-surname" name="your-surname" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-email" class="form-label">
+                                                                    Twitter
+                                                                </label>
+                                                                <input type="email" class="form-control rounded-0"
+                                                                    id="your-email" name="your-email" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-subject" class="form-label">
+                                                                    LinkedIn
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-subject" name="your-subject">
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-subject" class="form-label">
+                                                                    Tiktok
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-Tiktok" name="your-Tiktok">
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    class="row justify-content-start align-items-center g-3">
+                                                                    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                        <div class="text-center mt-md-4">
+                                                                            <button class="btn btn_green w-100 py-md-2">
+                                                                                Save Settings
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                        <div class="text-center mt-md-4">
+                                                                            <button
+                                                                                class="btn btn_green_outline w-100 py-md-2">
+                                                                                Cancel
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                                aria-labelledby="v-pills-messages-tab">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="">
+                                                            <h5 class="text-muted">Content</h5>
+                                                            <hr>
+                                                            <div class="">
+                                                                <textarea name="editor" id="editor" value=""
+                                                                    placeholder="Product Details"
+                                                                    class="form-control p-2" rows="30" cols="50">This page contains the legal terms and conditions that apply to your use of the websites www.pitchabook.com, harbone.pitchabook or any Facility websites using our products or services ("Site") and applications for mobile, tablet and other smart devices and application program interfaces (collectively, the "Application") including by accessing and browsing it, printing, copying and downloading from it, posting to it, linking to or from it or registering with it ("Use") (collectively, the "Site Terms"). You must read these Site Terms. By your continuing Use, you confirm that you have read, understood and agree with these Site Terms in their entirety. If you do not agree to these Site Terms in their entirety, you must not Use or continue to Use this Site or Application.
+                                                            </textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row justify-content-start align-items-center g-3">
+                                                            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                <div class="text-center mt-md-4">
+                                                                    <button class="btn btn_green w-100 py-md-2">
+                                                                        Save Settings
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                <div class="text-center mt-md-4">
+                                                                    <button class="btn btn_green_outline w-100 py-md-2">
+                                                                        Cancel
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                                aria-labelledby="v-pills-settings-tab">settings</div>
+                                            <div class="tab-pane fade" id="v-pills-contact" role="tabpanel"
+                                                aria-labelledby="v-pills-contact-tab">
+                                                <div class="">
+                                                    <form>
+                                                        <div class="row justify-content-start align-items-center g-3">
+                                                            <div class="col-md-4">
+                                                                <label for="your-name" class="form-label">
+                                                                    Banner
+                                                                </label>
+                                                                <div class="border p-2">
+                                                                    <img src="./img/logo8.png" class="img-fluid w-100"
+                                                                        alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <input type="file" id="img-upload" class="d-none"
+                                                                    name="" id="">
+                                                                <label for="img-upload"
+                                                                    class="btn btn_green">Upload</label>
+                                                                <div class="mt-3">
+                                                                    <p>Allowed JPG, JPEG, or <br>
+                                                                        PNG.Max size of 800kB</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <label for="your-name" class="form-label">
+                                                                    Banner Headline
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0 pb-3"
+                                                                    id="your-name" name="your-name"
+                                                                    value="Contact Us and FAQ" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-name" class="form-label">
+                                                                    Address
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-name" name="your-name" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-surname" class="form-label">
+                                                                    Phone Number
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-surname" name="your-surname" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-email" class="form-label">
+                                                                    Faq 1
+                                                                </label>
+                                                                <input type="email" class="form-control rounded-0"
+                                                                    id="your-email" name="your-email" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-subject" class="form-label">
+                                                                    Faq 1 Answer
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-subject" name="your-subject">
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-subject" class="form-label">
+                                                                    Faq 2
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-Tiktok" name="your-Tiktok">
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-name" class="form-label">
+                                                                    Faq 2 Answer
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-name" name="your-name" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-surname" class="form-label">
+                                                                    Faq 3
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-surname" name="your-surname" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-email" class="form-label">
+                                                                    Faq 3 Answer
+                                                                </label>
+                                                                <input type="email" class="form-control rounded-0"
+                                                                    id="your-email" name="your-email" required>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-subject" class="form-label">
+                                                                    Faq 4
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-subject" name="your-subject">
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <label for="your-subject" class="form-label">
+                                                                    Faq 4 Answer
+                                                                </label>
+                                                                <input type="text" class="form-control rounded-0"
+                                                                    id="your-Tiktok" name="your-Tiktok">
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    class="row justify-content-start align-items-center g-3">
+                                                                    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                        <div class="text-center mt-md-4">
+                                                                            <button class="btn btn_green w-100 py-md-2">
+                                                                                Save Settings
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                        <div class="text-center mt-md-4">
+                                                                            <button
+                                                                                class="btn btn_green_outline w-100 py-md-2">
+                                                                                Cancel
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-tdesign" role="tabpanel"
+                                                aria-labelledby="v-pills-tdesign-tab">
+                                                <div class="">
+                                                    <h5 class="fw-bold text-center">
+                                                        12 + Stunning Templets for your Sport
+                                                        Center website
+                                                    </h5>
+                                                    <div class="row align-items-center justify-content-center g-3">
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0" id="card1">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">
+                                                                                Default Theme
+                                                                            </h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200">
+                                                                                    <img src="./img/live/def1.png"
+                                                                                        class="img-fluid cus_select"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div class="overlay position-relative">
+                                                                                    <span class="text-white fs-3">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green"
+                                                                                        onclick="activateCard('card1')">Live
+                                                                                        Preview</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0" id="card2">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">
+                                                                                Pitch Style Theme
+                                                                            </h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200">
+                                                                                    <img src="./img/live/def2.png"
+                                                                                        class="img-fluid" alt="">
+                                                                                </div>
+                                                                                <div
+                                                                                    class="overlay position-relative d-none">
+                                                                                    <span class="text-white fs-3">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green"
+                                                                                        onclick="activateCard('card2')">Live
+                                                                                        Preview</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">
+                                                                                Court Style
+                                                                            </h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200">
+                                                                                    <img src="./img/def.png"
+                                                                                        class="img-fluid" alt="">
+                                                                                </div>
+                                                                                <div
+                                                                                    class="overlay position-relative d-none">
+                                                                                    <span class="text-white fs-3">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green">
+                                                                                        Live Preview
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">
+                                                                                Gallery Style
+                                                                            </h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200">
+                                                                                    <img src="./img/live/def4.png"
+                                                                                        class="img-fluid" alt="">
+
+                                                                                </div>
+                                                                                <div class="overlay"></div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green">
+                                                                                        Live Preview
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">
+                                                                                Tournament Style
+                                                                            </h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200">
+                                                                                    <img src="./img/live/def5.png"
+                                                                                        class="img-fluid" alt="">
+
+                                                                                </div>
+                                                                                <div class="overlay"></div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green">
+                                                                                        Live Preview
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">
+                                                                                News Style
+                                                                            </h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200">
+                                                                                    <img src="./img/live/def6.png"
+                                                                                        class="img-fluid" alt="">
+
+                                                                                </div>
+                                                                                <div class="overlay"></div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green">
+                                                                                        Live Preview
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">
+                                                                                Classes Style
+                                                                            </h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200">
+                                                                                    <img src="./img/live/def7.png"
+                                                                                        class="img-fluid" alt="">
+
+                                                                                </div>
+                                                                                <div class="overlay"></div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green">
+                                                                                        Live Preview
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">
+                                                                                Booking Style
+                                                                            </h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200">
+                                                                                    <img src="./img/live/def4.png"
+                                                                                        class="img-fluid" alt="">
+
+                                                                                </div>
+                                                                                <div class="overlay"></div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green">
+                                                                                        Live Preview
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- end -->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-8co7tL+Lw4lgrdOG7oyZeK7ffxOuI9RtByGxTka9aTENztk5ZJPGmTqSuwEUWR9H"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"
+        integrity="sha384-gbJexAp5GvFYi5Lcrxcn2bVivczhdcs7j47GZGACCZt8wFQhVgQqXd30njX0Wo2d"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/website.js"></script>
+
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#sidebarCollapse").on("click", function () {
+                $("#sidebar").toggleClass("active");
+                $("#content").toggleClass("active");
+                $("#admin").toggleClass("hidden_admin");
+            });
+
+            $(".more-button, .body-overlay").on("click", function () {
+                $("#sidebar, .body-overlay").toggleClass("show-nav");
+            });
+        });
+    </script>
+    <script>
+        // Activate Bootstrap dropdown on the image
+        var dropdownImage = document.getElementById("dropdownImage");
+        dropdownImage.addEventListener("click", function () {
+            var dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle("show");
+        });
+    </script>
+
+    <script>
+        function activateCard(cardId) {
+            // Remove the .cus_select class from all cards
+            var cards = document.querySelectorAll('.card');
+            cards.forEach(function (card) {
+                card.querySelector('.cus_select').classList.remove('cus_select');
+            });
+
+            // Add the .cus_select class to the clicked card
+            document.getElementById(cardId).querySelector('.cus_select').classList.add('cus_select');
+        }
+    </script>
+    <script>
+        function triggerUpload() {
+            document.getElementById('uploadInput').click();
+        }
+    </script>
+</body>
+
+</html>

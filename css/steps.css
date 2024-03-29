@@ -1,0 +1,56 @@
+.step-container {
+    position: relative;
+    text-align: center;
+    transform: translateY(-43%);
+}
+
+.step-line {
+    position: absolute;
+    top: 16px;
+    left: 50px;
+    width: calc(100% - 100px);
+    height: 2px;
+    background-color: #024138 !important;
+    z-index: -1;
+}
+
+#multi-step-form {
+    overflow-x: hidden;
+}
+
+.progress-bar {
+    background-color: #024138 !important;
+}
+
+.border_bottom {
+    border-bottom: 3px solid #AFEA30 !important;
+}
+
+.custom_green_card {
+    background: #024138;
+    max-width: auto;
+    min-height: 70px !important;
+    position: relative;
+}
+
+.custom_green_card.active {
+    background: #024138;
+    background: linear-gradient(#afea304a, #afea3073), #024138 !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+
+}
+
+.border_bottom_line {
+    border-bottom: 2px solid #000 !important;
+}
+
+.custom-upload {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}

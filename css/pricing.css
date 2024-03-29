@@ -1,0 +1,66 @@
+.toggle-next {
+    border-radius: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.apply-selection {
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.ajax-link {
+    display: none;
+}
+
+.checkboxes {
+    margin: 0;
+    display: none;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+
+.inner-wrap {
+    padding: 5px 10px;
+    max-height: 140px;
+    overflow: auto;
+}
+
+#select-box {
+    max-height: 40px;
+    overflow-y: auto;
+    width: 50px;
+}
+
+option {
+    overflow-y: scroll !important;
+}
+
+.form-select {
+    display: block;
+    width: auto !important;
+    background-color: #fff;
+    background-image: url(/img/down.png) !important;
+
+}
+
+.form-select:focus {
+    box-shadow: none !important;
+}
+

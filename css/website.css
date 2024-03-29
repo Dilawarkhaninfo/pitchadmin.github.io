@@ -1,0 +1,67 @@
+:root {
+    /* Colors: */
+    --unnamed-color-fafafa: #fafafa;
+    --unnamed-color-63e2f1: #63e2f1;
+    --unnamed-color-f3f3f3: #f3f3f3;
+    --unnamed-color-ffab00: #ffab00;
+    --unnamed-color-c5c5c5: #c5c5c5;
+    --unnamed-color-ec5453: #ec5453;
+    --unnamed-color-28c66f: #28c66f;
+    --unnamed-color-656565: #656565;
+    --unnamed-color-6259ce: #6259ce;
+    --unnamed-color-ffffff: #ffffff;
+    --unnamed-color-1e1e1e: #1e1e1e;
+    --light-blue: #AAB7C4;
+    --light-white: #8798AB;
+    --mian-color-1: #024138;
+    --mian-color-2: rgb(98, 89, 206);
+    --bg-main-color-1: rgb(255, 255, 255);
+}
+
+.border_right1 {
+    border-right: 1px solid var(--light-blue);
+    padding: 0px 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: var(--mian-color-1) !important;
+    color: #fff !important;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    margin: 15px 0px;
+    color: #000 !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+#ckEditor {
+    border: 1px solid #c4c4c4;
+}
+
+.custom_card {
+    position: relative;
+    min-width: 150px;
+    height: auto;
+}
+
+.cus_select {
+    padding: 0 !important;
+    border: 3px solid #AFEA30 !important;
+    background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgba(34, 34, 34, 0.685) 90%) !important;
+}
+
+.overlay {
+    position: absolute !important;
+    top: 36%;
+    left: 40%;
+}
+
+.custom-upload {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}

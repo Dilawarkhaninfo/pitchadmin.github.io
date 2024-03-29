@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css?family=Nova+Slim&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css");
+body,
+html {
+  line-height: 1.8;
+  font-family: "Roboto", sans-serif;
+  color: #555e58;
+
+  text-transform: capitalize;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  background: rgb(250, 250, 250);
+}
+:root {
+  /* Colors: */
+  --unnamed-color-fafafa: #fafafa;
+  --unnamed-color-63e2f1: #63e2f1;
+  --unnamed-color-f3f3f3: #f3f3f3;
+  --unnamed-color-ffab00: #ffab00;
+  --unnamed-color-c5c5c5: #c5c5c5;
+  --unnamed-color-ec5453: #ec5453;
+  --unnamed-color-28c66f: #28c66f;
+  --unnamed-color-656565: #656565;
+  --unnamed-color-6259ce: #6259ce;
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-1e1e1e: #1e1e1e;
+  --mian-color-1: #024138;
+  --mian-color-2: rgb(98, 89, 206);
+  --bg-main-color-1: rgb(255, 255, 255);
+
+  /* Font/text values */
+  --unnamed-font-family-open-sans: Open Sans;
+  --unnamed-font-family-roboto: Roboto;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-24: 24px;
+  --unnamed-font-size-34: 34px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-14: 14px;
+  --unnamed-line-spacing-21: 21px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-33: 33px;
+  --unnamed-line-spacing-45: 45px;
+  --unnamed-text-transform-titlecase: titlecase;
+
+  /* border radius  */
+  --border-radius-mian: 15px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-open-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-14);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1e1e1e);
+}
+.unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-open-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-14);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1e1e1e);
+}
+.unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-open-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-14);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-656565);
+}
+.unnamed-character-style-4 {
+  font-family: var(--unnamed-font-family-roboto);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-21);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1e1e1e);
+}
+.unnamed-character-style-5 {
+  font-family: var(--unnamed-font-family-open-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-656565);
+}
+.unnamed-character-style-6 {
+  font-family: var(--unnamed-font-family-open-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-24);
+  line-height: var(--unnamed-line-spacing-33);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1e1e1e);
+  text-transform: var(--unnamed-text-transform-titlecase);
+}
+.unnamed-character-style-7 {
+  font-family: var(--unnamed-font-family-roboto);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-34);
+  line-height: var(--unnamed-line-spacing-45);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1e1e1e);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4 {
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+p {
+  font-size: 15px;
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+
+a {
+  color: #333;
+  font-weight: 400;
+}
+
+button:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+/*=======================================================
+  material-icons  copy & paste form site google material-icons
+  ==================================================*/
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+    url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+    url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/*=======================================================
+  material-icons  copy & paste form site google material-icons
+  ==================================================*/
+
+.wrapper {
+  position: relative;
+  /* width: 100%; */
+  /* overflow: auto; */
+  background: rgb(250, 250, 250);
+  height: 100vh;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE start
+
+
+/* ---------------------------------------------------
+   sidebar end
+----------------------------------------------------- */
+
+/*=======================================================
+   main-content navbar-design start
+   ===============================================*/
+
+#content {
+  position: relative;
+  transition: all 0.3s;
+  background-color: rgb(250, 250, 250);
+  padding: 0px 0px 0px 20px;
+}
+
+.top-navbar {
+  width: 98%;
+  z-index: 9;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  border-radius: 15px;
+  height: 70px;
+  /* background-color: rgba(255, 0, 0, 0.103); */
+}
+
+.top-navbar h4 {
+  color: rgb(32, 32, 32) !important;
+  font-weight: 600;
+}
+
+#sidebarCollapse {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  margin-right: 20px;
+  border: none;
+  color: #ffffff;
+  /* background-color: rgba(0, 0, 0, 0.09); */
+  background-color: #ffff;
+}
+
+#sidebarCollapse span {
+  margin: 9px;
+  padding: 0px;
+}
+/* ---------  Code ---------- */
+
+.toggleIcon,
+svg {
+  vertical-align: baseline;
+}
+
+.profile-img {
+  height: 30px;
+  width: 30px;
+  background-image: url("../img/venue_cards/venus_card_icon (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.Vr {
+  border-right: 1px solid rgb(160, 160, 160);
+  height: 30px;
+}
+
+/* ----- Main ---------- */
+
+.main {
+  background-color: #ffffff;
+  height: 100vh;
+  font-family: "Poppins";
+  color: rgb(36, 36, 36);
+}
+
+.mainWrapper {
+  /* margin-top: 30px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 60px;
+}
+
+.main h4 {
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.main p {
+  margin-top: 10px;
+  max-width: 50%;
+  font-size: 19px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.add-spaces {
+  background-color: #024138;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+/* media quries for top card   */
+@media (max-width: 1450px) {
+}
+@media (max-width: 1140px) {
+}
+@media (max-width: 550px) {
+  .main {
+    background-color: #ffffff;
+    height: 100vh;
+    font-family: "Poppins";
+    color: rgb(36, 36, 36);
+  }
+
+  .mainWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 60px;
+  }
+
+  .main h4 {
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .main p {
+    margin-top: 10px;
+    max-width: 50%;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: start;
+  }
+
+  .add-spaces {
+    background-color: #024138;
+    padding: 10px 20px;
+    margin-top: 25px;
+  }
+}
+
+/*=============================================
+  bottom card end 
+  =========================================*/
+
+#sidebar.show-nav,
+.body-overlay.show-nav {
+  transform: translatex(0%);
+  opacity: 1;
+  display: block;
+  visibility: visible;
+  z-index: 15;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+/* for dashboard card   */
+@media (max-width: 600px) {
+  .top_card {
+    margin-top: 1rem;
+  }
+  .bottom_card {
+    margin-top: 1rem;
+  }
+  .services_card_main {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+
+/* for top navbar  */
+@media (max-width: 950px) {
+  .top-navbar {
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 0px;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .sm_dash p {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: black;
+  }
+  .nav-links {
+    display: none !important;
+  }
+  .more-button {
+    background: none;
+    border: none;
+    display: block;
+    /* background-color: red; */
+  }
+  .material-symbols-outlined {
+    font-size: 25px !important;
+  }
+}
+
+/* for top navbar  */
+@media (max-width: 600px) {
+  .top-navbar {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0 !important;
+    border-radius: 0px;
+  }
+  .sm_dash {
+    font-size: 30px !important;
+    font-weight: bold;
+    color: black;
+  }
+  .nav-links {
+    display: none !important;
+  }
+  .more-button {
+    background: none;
+    border: none;
+    display: block;
+  }
+}
+
+/* for main content  */
+
+@media (max-width: 600px) {
+  #content {
+    padding: 0;
+  }
+  .main-content {
+    /* padding-left: 1.5rem; */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #sidebar.active {
+    width: 80px;
+    height: 100% !important;
+    position: absolute !important;
+    overflow: visible !important;
+    top: 0 !important;
+    z-index: 666;
+    float: left !important;
+    bottom: 0 !important;
+  }
+
+  #sidebar.active .sidebar-header h3 span {
+    display: none;
+    transition: all 0.5s ease;
+  }
+
+  #sidebar.active ul li a span {
+    display: none;
+    transition: all 0.5s ease;
+  }
+
+  #sidebar.active .dropdown-toggle::after {
+    display: none;
+    transition: all 0.5s ease;
+  }
+
+  #content {
+    width: calc(100% - 260px);
+    position: relative;
+    float: right;
+    transition: all 0.3s;
+    background-color: rgb(250, 250, 250);
+  }
+
+  #content.active {
+    width: calc(100% - 80px);
+  }
+
+  #sidebar.active .menu {
+    position: absolute;
+    left: 81px;
+    background-color: white;
+    width: 180px;
+    height: auto;
+    margin: 5px 0;
+    top: 0;
+    border: 1px solid #dcd9d9;
+    z-index: 4;
+  }
+}
+
+/*===============small-screen overlay sidebar design media queries==============*/
+
+@media only screen and (max-width: 992px) {
+  #sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 260px;
+    transform: translatex(-100%);
+    transition: all 150ms linear;
+    box-shadow: none !important;
+  }
+
+  .body-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+    transition: all 150ms linear;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

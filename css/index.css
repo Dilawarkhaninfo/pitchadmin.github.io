@@ -1,0 +1,11 @@
+.circle_custom {
+    width: 35px;
+    height: 35px;
+    background: #B7EB38;
+    border-radius: 50%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

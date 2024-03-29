@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Steps Form Page || Book a pitch cms</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!----css3---->
+    <link rel="stylesheet" href="css/earning-page.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/steps.css" />
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <!--google material icon-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="body-overlay"></div>
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="./img/logo (2).png" class="img-fluid" />
+            </div>
+            <ul class="list-unstyled components">
+                <li class="">
+                    <a href="index.html" class="dashboard">
+                        <i class="material-symbols-outlined">keyboard_command_key</i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="bookings.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            bar_chart
+                        </i>
+                        <span>Bookings</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="index.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            description
+                        </i>
+                        <span>Sports Listing</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="earning-page.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            account_balance_wallet
+                        </i>
+                        <span>Earnings</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="webiste.html" class="dashboard">
+                        <i class="material-icons">desktop_windows</i>
+                        <span>Website</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="index.html" class="dashboard">
+                        <i class="material-icons">person</i>
+                        <span>Staff</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="hours-of-availability.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            manage_history
+                        </i>
+                        <span>
+                            Hours of Availability
+                        </span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="pricing.html" class="dashboard">
+                        <i class="material-symbols-outlined">
+                            sell
+                        </i>
+                        <span>
+                            Pricing
+                        </span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="index.html" class="dashboard">
+                        <i class="material-icons">help_outline</i>
+                        <span>Help</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content -->
+        <div id="content">
+            <div class="top-navbar">
+                <!-- sidebar toggle btns -->
+                <div class="d-flex align-items-center">
+                    <button class="d-block d-lg-none me-5 more-button" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent">
+                        <img src="./img/menu_icon.png" alt="" class="menu_icon ms-2" />
+                    </button>
+                    <h5 class="fw-bold">Booking Dashboard</h5>
+                </div>
+                <!-- profile -->
+                <div class="d-flex align-items-center justify-content-between gap-lg-4 gap-md-3 gap-sm-1">
+                    <img src="img/Notification.svg" alt="" />
+                    <div class="Vr"></div>
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="profile-img"></div>
+                        <span class="name">John Doe</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Main content -->
+            <div class="px-md-3">
+                <div class="container px-0">
+                    <div class="progress-container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="">
+                                    <div class="progress rounded-0" style="height: 10px;">
+                                        <div id="progressbar1" class="progress-bar" role="progressbar"
+                                            style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="">
+                                    <div class="progress rounded-0" style="height: 10px;">
+                                        <div id="progressbar2" class="progress-bar" role="progressbar"
+                                            style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="">
+                                    <div class="progress rounded-0" style="height: 10px;">
+                                        <div id="progressbar3" class="progress-bar" role="progressbar"
+                                            style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="main">
+                    <div id="container" class="container">
+                        <form id="multi-step-form">
+                            <div class="step step-1">
+                                <!-- Step 1 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-end g-3">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="mb-3">
+                                                <h5 class="fw-bold"><span class="border_bottom">Step 1</span></h5>
+                                                <div class="my-3">
+                                                    <h5 class="fw-bold">
+                                                        Tell us about your Venues/ Spaces
+                                                    </h5>
+                                                    <p>
+                                                        In this step, we're keen to learn more about the specifics of
+                                                        your venue or space. Please identify the types of sports or
+                                                        activities you offer. Additionally, provide details about your
+                                                        venue's operating hours, and describe the facilities and
+                                                        amenities available
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="">
+                                                <img src="./img/bg3.png" class="img-fluid" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                            <div class="text-end">
+                                                <button type="button"
+                                                    class="btn btn_green next-step w-100 py-3">Next</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-2">
+                                <!-- Step 2 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-11">
+                                            <div class="row justify-content-center align-items-center g-3">
+                                                <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+                                                    <div class="text-center mb-3">
+                                                        <h5 class="fw-bold text-center">
+                                                            Name Of The Venue/Spaces
+                                                        </h5>
+                                                        <input type="text" class="form-control text-muted w-100"
+                                                            value="North Pitch 1">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="row align-items-center justify-content-center g-3">
+                                                        <div class="col-3">
+                                                            <div
+                                                                class="card custom_green_card active rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Pitch</h6>
+                                                                    </div>
+                                                                    <div class="overlay">
+                                                                        <h3>
+                                                                            <span class="text-white">
+                                                                                <i class="fas fa-circle-check"></i>
+                                                                            </span>
+                                                                        </h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="custom_green_card">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/Page2.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Court</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="custom_green_card">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p3.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Classroom</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="custom_green_card">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p4.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Hall</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="custom_green_card">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p5.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Gymnasium</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="custom_green_card">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p6.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Golf Course</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="custom_green_card">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p7.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Swiming</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="custom_green_card">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p8.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Studio</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                            <div class="d-flex justify-content-end">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-3">
+                                <!-- Step 3 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-11">
+                                            <div class="row justify-content-center align-items-center g-3">
+                                                <div class="col-12 col-sm-12 col-md-10 col-lg-8">
+                                                    <div class="text-center mb-3">
+                                                        <h5 class="fw-bold text-center">
+                                                            Please select the type of pitch for Pitch North 1
+                                                        </h5>
+                                                        <p>Select the Right Pitch for a Smooth Booking Experience</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="row align-items-center justify-content-center g-3">
+                                                        <div class="col-4">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">Standard Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">5-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div
+                                                                class="card custom_green_card active rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">7-a-side Pitch</h6>
+                                                                    </div>
+                                                                    <div class="overlay">
+                                                                        <h3>
+                                                                            <span class="text-white">
+                                                                                <i class="fas fa-circle-check"></i>
+                                                                            </span>
+                                                                        </h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">11-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">Caged Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">Indoor Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                            <div class="d-flex justify-content-between align-items-center g-3">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-4">
+                                <!-- Step 4 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-11">
+                                            <div class="row justify-content-center align-items-center g-3">
+                                                <div class="col-12 col-sm-12 col-md-10 col-lg-8">
+                                                    <div class="text-center mb-3">
+                                                        <h5 class="fw-bold text-center">
+                                                            Specify the Sports Available at Pitch North 1
+                                                        </h5>
+                                                        <p>Specify the sports for this pitch; multiple selections
+                                                            allowed.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="row align-items-center justify-content-center g-3">
+                                                        <div class="col-12">
+                                                            <div
+                                                                class="row justify-content-center align-items-center g-3">
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p1.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Pitch</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card active rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/Page2.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Tennis</h6>
+                                                                            </div>
+                                                                            <div class="overlay">
+                                                                                <h3>
+                                                                                    <span class="text-white">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </h3>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p3.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Classroom
+                                                                                </h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p4.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Hall</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p5.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Gymnasium
+                                                                                </h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="row align-items-center justify-content-center g-3">
+                                                        <div class="col-12">
+                                                            <div
+                                                                class="row justify-content-center align-items-center g-3">
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p1.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Pitch</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/Page2.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Court</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p3.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Volleyball
+                                                                                </h6>
+                                                                            </div>
+                                                                            <div class="overlay">
+                                                                                <h3>
+                                                                                    <span class="text-white">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </h3>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card active rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p4.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Padel</h6>
+                                                                            </div>
+                                                                            <div class="overlay">
+                                                                                <h3>
+                                                                                    <span class="text-white">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </h3>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p5.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Gymnasium
+                                                                                </h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="row align-items-center justify-content-center g-3">
+                                                        <div class="col-12">
+                                                            <div
+                                                                class="row justify-content-center align-items-center g-3">
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card active rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p1.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Pitch</h6>
+                                                                            </div>
+                                                                            <div class="overlay">
+                                                                                <h3>
+                                                                                    <span class="text-white">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </h3>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/Page2.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Court</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p3.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Classroom
+                                                                                </h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p4.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Hall</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div
+                                                                        class="card custom_green_card rounded shadow-sm">
+                                                                        <div class="card-body">
+                                                                            <div class="custom_green_card">
+                                                                                <div class="mb-2">
+                                                                                    <img src="./img/cards/p5.png" alt="">
+                                                                                </div>
+                                                                                <h6 class="text-white mb-0">Gymnasium
+                                                                                </h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                            <div class="d-flex justify-content-between align-items-center g-3">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-5">
+                                <!-- Step 5 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-11">
+                                            <div class="row justify-content-center align-items-center g-3">
+                                                <div class="col-12 col-sm-12 col-md-10 col-lg-8">
+                                                    <div class="text-center mb-3">
+                                                        <h5 class="fw-bold text-center">
+                                                            Specify the Surface Type at Pitch North 1
+                                                        </h5>
+                                                        <p>
+                                                            Select Surface type you have for a Smooth Booking Experience
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="row align-items-center justify-content-start g-3">
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">Standard Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">5-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">7-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">11-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">Caged Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">Indoor Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div
+                                                                class="card custom_green_card active rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">7-a-side Pitch</h6>
+                                                                    </div>
+                                                                    <div class="overlay">
+                                                                        <h3>
+                                                                            <span class="text-white">
+                                                                                <i class="fas fa-circle-check"></i>
+                                                                            </span>
+                                                                        </h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">11-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">Caged Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="text-center mt-2">
+                                                                        <h6 class="text-white">Indoor Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                            <div class="d-flex justify-content-between align-items-center g-3">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-6">
+                                <!-- Step 6 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-end g-3">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="mb-3">
+                                                <h5 class="fw-bold"><span class="border_bottom">Step 2</span></h5>
+                                                <div class="my-3">
+                                                    <h5 class="fw-bold">
+                                                        Define Hours, Pricing, and Location
+                                                    </h5>
+                                                    <p>
+                                                        Detail your operating hours, including weekend or holiday
+                                                        variations. Clearly state your pricing, whether it's per
+                                                        hour/session and any peak or off-peak rates. Include special
+                                                        packages or discounts.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="text-center">
+                                                <img src="./img/cards/map.png" class="img-fluid" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                            <div class="d-flex justify-content-between align-items-center g-3 my-5">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-7">
+                                <!-- Step 7 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-10 col-lg-8">
+                                            <div class="text-center mb-3">
+                                                <h5 class="fw-bold text-center">
+                                                    Where's your venue located?
+                                                </h5>
+                                                <p>Make it clear to customer where your venue is located. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="border_bottom_line mb-3">
+                                                <div class="d-flex justify-content-center align-items-center ft_16">
+                                                    <div class="">
+                                                        <span class="text-dark"><i
+                                                                class="fas fa-location-dot"></i></span>
+                                                    </div>
+                                                    <div class="">
+                                                        <input type="text" class="form-control border-0 w-100 rounded-0"
+                                                            value="231 Shenstone Valley Rd,Birmingham" name="" id="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-10">
+                                            <div class="card bg-transparent border-0">
+                                                <div class="card-body p-0">
+                                                    <div class="">
+                                                        <iframe
+                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.782209224053!2d-1.9534093237916585!3d52.48307893896301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd0de55dfbc9%3A0xe24a2679442c4669!2s231%20Shenstone%20Rd%2C%20Birmingham%20B16%200PG%2C%20UK!5e0!3m2!1sen!2s!4v1711634834155!5m2!1sen!2s"
+                                                            width="100%" height="300px" class="rounded shadow-sm"
+                                                            allowfullscreen="" loading="lazy"
+                                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                            <div class="d-flex justify-content-between align-items-center g-3">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-8">
+                                <!-- Step 8 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-10 col-lg-8">
+                                            <div class="text-center mb-3">
+                                                <h5 class="fw-bold text-center">
+                                                    Where's your venue located?
+                                                </h5>
+                                                <p>Make it clear to customer where your venue is located. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="border_bottom_line mb-3">
+                                                <div class="d-flex justify-content-center align-items-center ft_16">
+                                                    <div class="">
+                                                        <span class="text-dark"><i
+                                                                class="fas fa-location-dot"></i></span>
+                                                    </div>
+                                                    <div class="">
+                                                        <input type="text" class="form-control border-0 w-100 rounded-0"
+                                                            value="231 Shenstone Valley Rd,Birmingham" name="" id="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-10">
+                                            <div class="card bg-transparent border-0">
+                                                <div class="card-body p-0">
+                                                    <div class="">
+                                                        <iframe
+                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.782209224053!2d-1.9534093237916585!3d52.48307893896301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd0de55dfbc9%3A0xe24a2679442c4669!2s231%20Shenstone%20Rd%2C%20Birmingham%20B16%200PG%2C%20UK!5e0!3m2!1sen!2s!4v1711634834155!5m2!1sen!2s"
+                                                            width="100%" height="300px" class="rounded shadow-sm"
+                                                            allowfullscreen="" loading="lazy"
+                                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="">
+                                                    <h5 class="fw-bold">Location Type?</h5>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="radioOptions"
+                                                            id="indoorRadio" checked>
+                                                        <label class="form-check-label fw-bold"
+                                                            for="indoorRadio">Indoor</label>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="radioOptions"
+                                                            id="outdoorRadio">
+                                                        <label class="form-check-label fw-bold"
+                                                            for="outdoorRadio">Outdoor</label>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                            <div class="d-flex justify-content-between align-items-center g-3">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-9">
+                                <!-- Step 9 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-11">
+                                            <div class="row justify-content-center align-items-center g-3">
+                                                <div class="col-12 col-sm-12 col-md-10 col-lg-8">
+                                                    <div class="text-center mb-3">
+                                                        <h5 class="fw-bold text-center">
+                                                            Select Amenities Offered at Your Venue
+                                                        </h5>
+                                                        <p>
+                                                            Select available amenities now. You can add or update more
+                                                            after publishing your listing
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="row align-items-center justify-content-start g-3">
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Parking</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div
+                                                                class="card custom_green_card active rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">5-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overlay">
+                                                                    <h3>
+                                                                        <span class="text-white">
+                                                                            <i class="fas fa-circle-check"></i>
+                                                                        </span>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Parking</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Parking</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Parking</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Parking</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div
+                                                                class="card custom_green_card active rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">5-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overlay">
+                                                                    <h3>
+                                                                        <span class="text-white">
+                                                                            <i class="fas fa-circle-check"></i>
+                                                                        </span>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Parking</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div
+                                                                class="card custom_green_card active rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">5-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overlay">
+                                                                    <h3>
+                                                                        <span class="text-white">
+                                                                            <i class="fas fa-circle-check"></i>
+                                                                        </span>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div
+                                                                class="card custom_green_card active rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">5-a-side Pitch</h6>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overlay">
+                                                                    <h3>
+                                                                        <span class="text-white">
+                                                                            <i class="fas fa-circle-check"></i>
+                                                                        </span>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Parking</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <div class="card custom_green_card rounded shadow-sm">
+                                                                <div class="card-body">
+                                                                    <div class="">
+                                                                        <div class="mb-2">
+                                                                            <img src="./img/cards/p1.png" alt="">
+                                                                        </div>
+                                                                        <h6 class="text-white mb-0">Parking</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                            <div class="d-flex justify-content-between align-items-center g-3">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step step-10">
+                                <!-- Step 10 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-end g-3">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="mb-3">
+                                                <h5 class="fw-bold mb-4"><span class="border_bottom">Step 3 </span>
+                                                    Final
+                                                    Step, We Promise! <span class="text_lightGreen fs_16"><i
+                                                            class="fas fa-smile"></i></span> </h5>
+                                                <div class="my-3">
+                                                    <h5 class="fw-bold">
+                                                        Venue Showcase: Photos & Details
+                                                    </h5>
+                                                    <p>
+                                                        Bring your venue to life with captivating photos and a
+                                                        compelling description. This visual introduction is your chance
+                                                        to highlight the unique features and charm of your space, making
+                                                        it irresistible to potential customers
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="text-cemter">
+                                                <img src="./img/cards/step3.png" class="img-fluid" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                            <div class="d-flex justify-content-between align-items-center g-3 my-5">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step step-11">
+                                <!-- Step 11 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-10 col-lg-8">
+                                            <div class="text-center mb-3">
+                                                <h5 class="fw-bold text-center">
+                                                    Venue Showcase: Photos & Details
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="text-center">
+                                                <!-- Upload input field -->
+                                                <div class="custom-upload" onclick="triggerUpload()">
+                                                    <input type="file" class="form-control-file" style="display: none;"
+                                                        id="uploadInput" aria-describedby="uploadHelp">
+                                                    <h3 id="uploadHelp" class="form-text fw-bold ">Drop
+                                                        About us section Images here</h3>
+                                                    <div class="mt-3 h3 fs-3">
+                                                        <i class="fas fa-upload ft_16"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="">
+                                                <label for="">Description</label>
+                                                <textarea name="" class="form-control p-3"
+                                                    placeholder="Enter Venue Description" id="" cols="10"
+                                                    rows="5"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                            <div class="d-flex justify-content-between align-items-center g-3">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="button"
+                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="step step-12">
+                                <!-- Step 12 form fields here -->
+                                <div class="p-5">
+                                    <div class="row align-items-center justify-content-center g-3">
+                                        <div class="col-12 col-sm-12 col-md-10 col-lg-8">
+                                            <div class="text-center mb-3">
+                                                <h5 class="fw-bold text-center">
+                                                    Venue Showcase: Photos & Details
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="text-center">
+                                                <!-- Upload input field -->
+                                                <div class="custom-upload" onclick="triggerUpload()">
+                                                    <input type="file" class="form-control-file" style="display: none;"
+                                                        id="uploadInput" aria-describedby="uploadHelp">
+                                                    <div class="row align-items-center justify-content-center">
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row align-items-center justify-content-center">
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <div class="text-center">
+                                                                <img src="./img/cards/bgremove.png" class="img-fluid"
+                                                                    alt="">
+                                                                <a href="#" class="text_red">Remove</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="">
+                                                <label for="">Description</label>
+                                                <textarea name="" class="form-control p-3"
+                                                    placeholder="Enter Venue Description" id="" cols="10" rows="5">Looking to hire a basketball court in London? Harris Academy Bermondsey is an excellent place to play basketball in south London. The well maintained facility provides an excellent court on which to play. The court has clear basketball markings and excellent lighting, making it a perfect sports facility for a team to practice on or use as a home court. There are multiple basketball courts in London but only a few of this standard and quality - Harris Academy Bermondsey has basketball facilities they can be extremely proud of.
+                                                </textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                            <div class="d-flex justify-content-between align-items-center g-3">
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+                                                    <div class="text-start">
+                                                        <button type="button"
+                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+                                                    <div class="text-end">
+                                                        <button type="submit"
+                                                            class="btn btn_green next-step w-100 py-3">Submit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+            <!-- end -->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-8co7tL+Lw4lgrdOG7oyZeK7ffxOuI9RtByGxTka9aTENztk5ZJPGmTqSuwEUWR9H"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"
+        integrity="sha384-gbJexAp5GvFYi5Lcrxcn2bVivczhdcs7j47GZGACCZt8wFQhVgQqXd30njX0Wo2d"
+        crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+
+    <script>
+        var currentStep = 1;
+        var updateProgressBar;
+
+        function displayStep(stepNumber) {
+            if (stepNumber >= 1 && stepNumber <= 12) {
+                $(".step-" + currentStep).hide();
+                $(".step-" + stepNumber).show();
+                currentStep = stepNumber;
+                updateProgressBar();
+
+                // Show/hide corresponding progress bar
+                if (stepNumber >= 1 && stepNumber <= 4) {
+                    $("#progressbar1").css("width", ((stepNumber - 1) / 4) * 100 + "%");
+                    $("#progressbar2").css("width", "0%");
+                    $("#progressbar3").css("width", "0%");
+                } else if (stepNumber >= 5 && stepNumber <= 8) {
+                    $("#progressbar1").css("width", "100%");
+                    $("#progressbar2").css("width", ((stepNumber - 5) / 4) * 100 + "%");
+                    $("#progressbar3").css("width", "0%");
+                } else if (stepNumber >= 9 && stepNumber <= 12) {
+                    $("#progressbar1").css("width", "100%");
+                    $("#progressbar2").css("width", "100%");
+                    $("#progressbar3").css("width", ((stepNumber - 9) / 4) * 100 + "%");
+                }
+            }
+        }
+
+        $(document).ready(function () {
+            var currentStep = 1;
+            var updateProgressBar;
+
+            $('#multi-step-form').find('.step').slice(1).hide();
+
+            $(".next-step").click(function () {
+                if (currentStep < 12) {
+                    $(".step-" + currentStep).addClass("animate__animated animate__fadeOutLeft");
+                    currentStep++;
+                    setTimeout(function () {
+                        $(".step").removeClass("animate__animated animate__fadeOutLeft").hide();
+                        $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInRight");
+                        updateProgressBar();
+                    }, 500);
+                }
+            });
+
+            $(".prev-step").click(function () {
+                if (currentStep > 1) {
+                    $(".step-" + currentStep).addClass("animate__animated animate__fadeOutRight");
+                    currentStep--;
+                    setTimeout(function () {
+                        $(".step").removeClass("animate__animated animate__fadeOutRight").hide();
+                        $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInLeft");
+                        updateProgressBar();
+                    }, 500);
+                }
+            });
+
+            updateProgressBar = function () {
+                // Update progress bars based on current step
+                if (currentStep >= 1 && currentStep <= 4) {
+                    $("#progressbar1").css("width", ((currentStep - 1) / 4) * 100 + "%");
+                    $("#progressbar2").css("width", "0%");
+                } else if (currentStep >= 5 && currentStep <= 8) {
+                    $("#progressbar1").css("width", "100%");
+                    $("#progressbar2").css("width", ((currentStep - 5) / 4) * 100 + "%");
+                    $("#progressbar3").css("width", "0%");
+                } else if (currentStep >= 9 && currentStep <= 12) {
+                    $("#progressbar1").css("width", "100%");
+                    $("#progressbar2").css("width", "100%");
+                    $("#progressbar3").css("width", ((currentStep - 9) / 4) * 100 + "%");
+                }
+            }
+
+            updateProgressBar(); // Initialize progress bar on page load
+        });
+
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#sidebarCollapse").on("click", function () {
+                $("#sidebar").toggleClass("active");
+                $("#content").toggleClass("active");
+                $("#admin").toggleClass("hidden_admin");
+            });
+
+            $(".more-button, .body-overlay").on("click", function () {
+                $("#sidebar, .body-overlay").toggleClass("show-nav");
+            });
+        });
+    </script>
+    <script>
+        // Activate Bootstrap dropdown on the image
+        var dropdownImage = document.getElementById("dropdownImage");
+        dropdownImage.addEventListener("click", function () {
+            var dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle("show");
+        });
+    </script>
+    <script>
+        function triggerUpload() {
+            document.getElementById('uploadInput').click();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.page-item.active .page-link {
+    background-color: #0B3A23 !important;
+    border-color: #0B3A23 !important;
+    color: #fff !important;
+}
+
+.bg_lightgreen {
+    background: #A8F170 !important;
+    color: #0B3A23 !important;
+
+}
+
+.bg_red {
+    background: #FBD3DC !important;
+    color: #C0123C !important;
+
+}
+
+td span {
+    font-weight: normal;
+}
+.page-link {
+    color: #000 !important;
+    margin: 0 5px !important;
+    border-radius: 10px !important;
+}
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    display: none !important;
+}
