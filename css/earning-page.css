@@ -19,11 +19,13 @@
 td span {
     font-weight: normal;
 }
+
 .page-link {
     color: #000 !important;
     margin: 0 5px !important;
     border-radius: 10px !important;
 }
+
 .page-item:first-child .page-link,
 .page-item:last-child .page-link {
     display: none !important;
