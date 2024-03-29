@@ -4,11 +4,24 @@
         border-right: 1px solid #707070;
         padding: 5px 0;
     }
+
+    .h_100 {
+        height: 100px !important;
+    }
 }
 
 @media(max-width:768px) {
 
     .p_sm_10 {
         padding: 10px;
+    }
+
+    .h_250 {
+        height: 250px !important;
+    }
+
+    .h_250 img {
+        object-fit: cover !important;
+        height: 100% !important;
     }
 }
