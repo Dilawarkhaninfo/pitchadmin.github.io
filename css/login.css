@@ -3,14 +3,20 @@
 }
 
 
+/* section {
+    height: 100vh !important;
+    width: 100% !important;
+} */
+
 /* right login pge */
-.login-right {
-    background: url("/img/images/Group\ 9990.svg") no-repeat center center/cover;
+.custom_bg {
+    background: url("../img/images/Group\ 9990.svg") no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden !important;
+    min-height: 800px !important;
 
 }
 
