@@ -21,12 +21,14 @@
 }
 
 .login-right2 {
-    background: url("/img/cards/Images-1.png") no-repeat center center/cover;
+    background: url("../img/images/Group\ 9990.svg") no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden !important;
+    min-height: 800px !important;
+
 
 }
 
