@@ -16,11 +16,11 @@
         padding: 10px;
     }
 
-    .h_250 {
-        height: 250px !important;
+    .h_200 {
+        height: 200px !important;
     }
 
-    .h_250 img {
+    .h_200 img {
         object-fit: cover !important;
         height: 100% !important;
     }
