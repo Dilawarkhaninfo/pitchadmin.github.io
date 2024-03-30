@@ -28,9 +28,9 @@
 
 .custom_green_card {
     background: #024138;
-    max-width: auto;
     min-height: 70px !important;
     position: relative;
+    border-radius: 10px !important;
 }
 
 .custom_green_card.active {
@@ -54,3 +54,14 @@
     border-radius: 10px;
     padding: 20px;
 }
+
+@media(min-width:998px) {
+
+    .custom_green_card {
+        max-width: 230px !important;
+    }
+}
+
+@media(min-width:768px) {}
+
+@media(max-width:768px) {}

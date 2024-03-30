@@ -28,6 +28,67 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
+
+    <!-- Linking Montserrat font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <!-- Linking Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Linking Poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Linking Railway font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Linking Sans font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--google material icon-->
+    <style>
+        .ft_roboto {
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        .ft_mont {
+            font-family: 'Montserrat', sans-serif !important;
+        }
+
+        .ft_poppine {
+            font-family: 'Poppins', sans-serif !important;
+        }
+
+        .ft_relway {
+            font-family: 'Railway', sans-serif !important;
+        }
+
+        .ft_open {
+            font-family: 'Open Sans', sans-serif !important;
+        }
+
+        .fw_500 {
+            font-weight: 500 !important;
+        }
+
+        .fw_700 {
+            font-weight: 700 !important;
+        }
+
+        .ft_18 {
+            font-size: 18px !important;
+        }
+
+        .ft_14 {
+            font-size: 14px !important;
+        }
+
+        .ft_12 {
+            font-size: 12px !important;
+        }
+
+        .ft_16 {
+            font-size: 16px !important;
+        }
+    </style>
+
 </head>
 
 
@@ -134,7 +195,7 @@
             <!-- Main content -->
             <div class="px-md-3">
                 <div class="container px-0">
-                    <div class="progress-container">
+                    <div class="progress-container mb-3">
                         <div class="row">
                             <div class="col-4">
                                 <div class="">
@@ -171,17 +232,19 @@
                         <form id="multi-step-form">
                             <div class="step step-1">
                                 <!-- Step 1 form fields here -->
-                                <div class="p-3 p-lg-5">
+                                <div class="px-5">
                                     <div
                                         class="row align-items-center justify-content-center justify-content-md-end g-3">
                                         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <div class="mb-3">
-                                                <h5 class="fw-bold"><span class="border_bottom">Step 1</span></h5>
+                                                <h5 class="fw-bold ft_open fw_700"><span class="border_bottom">Step
+                                                        1</span>
+                                                </h5>
                                                 <div class="my-3">
-                                                    <h5 class="fw-bold">
+                                                    <h5 class="fw-bolder fw_700 ft_open">
                                                         Tell us about your Venues/ Spaces
                                                     </h5>
-                                                    <p>
+                                                    <p class="ft_open">
                                                         In this step, we're keen to learn more about the specifics of
                                                         your venue or space. Please identify the types of sports or
                                                         activities you offer. Additionally, provide details about your
@@ -193,14 +256,14 @@
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                            <div class="mb-3">
-                                                <img src="./img/bg3.png" class="img-fluid" alt="">
+                                            <div class="text-end">
+                                                <img src="./img/cards/step1.svg" class="img-fluid" alt="">
                                             </div>
                                         </div>
-                                        <div class="col-8 col-sm-6 col-md-4 col-lg-3">
-                                            <div class="text-end">
+                                        <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                            <div class="">
                                                 <button type="button"
-                                                    class="btn btn_green next-step w-100 py-3">Next</button>
+                                                    class="btn btn-dark next-step w-100 ft_18 fw-bold ft_poppine py-3">Next</button>
                                             </div>
                                         </div>
                                     </div>
@@ -210,28 +273,39 @@
                                 <!-- Step 2 form fields here -->
                                 <div class="p-3 p-lg-5">
                                     <div class="row align-items-center justify-content-center g-3">
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
                                             <div class="row justify-content-center align-items-center g-3">
-                                                <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+                                                <div class="col-12 col-sm-12 col-md-8 col-lg-5">
                                                     <div class="text-center my-3">
-                                                        <h5 class="fw-bold text-center">
+                                                        <h5 class="fw-bold text-center ft_open">
                                                             Name Of The Venue/Spaces
                                                         </h5>
-                                                        <input type="text" class="form-control text-muted w-100"
+                                                        <input type="text"
+                                                            class="form-control text-muted ft_poppine w-100"
                                                             value="North Pitch 1">
                                                     </div>
                                                 </div>
+                                                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                                                    <div class="">
+                                                        <div class="">
+                                                            <h5 class="fw-bold text-center ft_open mb-0">
+                                                                Which of these best describes your Venue/Space?
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                                    <div class="row align-items-center justify-content-center g-3">
+                                                    <div class="row align-items-center justify-content-center g-4">
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div
                                                                 class="card custom_green_card active rounded shadow-sm">
-                                                                <div class="card-body">
+                                                                <div class="card-body pb-0">
                                                                     <div class="">
                                                                         <div class="mb-2">
                                                                             <img src="./img/cards/p1.png" alt="">
                                                                         </div>
-                                                                        <h6 class="text-white mb-0">Pitch</h6>
+                                                                        <h6 class="text-white ft_poppine ft_16 mb-0">
+                                                                            Pitch</h6>
                                                                     </div>
                                                                     <div class="overlay">
                                                                         <h3>
@@ -245,84 +319,91 @@
                                                         </div>
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
-                                                                <div class="card-body">
+                                                                <div class="card-body pb-0">
                                                                     <div class="custom_green_card">
                                                                         <div class="mb-2">
                                                                             <img src="./img/cards/Page2.png" alt="">
                                                                         </div>
-                                                                        <h6 class="text-white mb-0">Court</h6>
+                                                                        <h6 class="text-white ft_poppine ft_16 mb-0">
+                                                                            Court</h6>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
-                                                                <div class="card-body">
+                                                                <div class="card-body pb-0">
                                                                     <div class="custom_green_card">
                                                                         <div class="mb-2">
                                                                             <img src="./img/cards/p3.png" alt="">
                                                                         </div>
-                                                                        <h6 class="text-white mb-0">Classroom</h6>
+                                                                        <h6 class="text-white ft_poppine ft_16 mb-0">
+                                                                            Classroom</h6>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
-                                                                <div class="card-body">
+                                                                <div class="card-body pb-0">
                                                                     <div class="custom_green_card">
                                                                         <div class="mb-2">
                                                                             <img src="./img/cards/p4.png" alt="">
                                                                         </div>
-                                                                        <h6 class="text-white mb-0">Hall</h6>
+                                                                        <h6 class="text-white ft_poppine ft_16 mb-0">
+                                                                            Hall</h6>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
-                                                                <div class="card-body">
+                                                                <div class="card-body pb-0">
                                                                     <div class="custom_green_card">
                                                                         <div class="mb-2">
                                                                             <img src="./img/cards/p5.png" alt="">
                                                                         </div>
-                                                                        <h6 class="text-white mb-0">Gymnasium</h6>
+                                                                        <h6 class="text-white ft_poppine ft_16 mb-0">
+                                                                            Gymnasium</h6>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
-                                                                <div class="card-body">
+                                                                <div class="card-body pb-0">
                                                                     <div class="custom_green_card">
                                                                         <div class="mb-2">
                                                                             <img src="./img/cards/p6.png" alt="">
                                                                         </div>
-                                                                        <h6 class="text-white mb-0">Golf Course</h6>
+                                                                        <h6 class="text-white ft_poppine ft_16 mb-0">
+                                                                            Golf Course</h6>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
-                                                                <div class="card-body">
+                                                                <div class="card-body pb-0">
                                                                     <div class="custom_green_card">
                                                                         <div class="mb-2">
                                                                             <img src="./img/cards/p7.png" alt="">
                                                                         </div>
-                                                                        <h6 class="text-white mb-0">Swiming</h6>
+                                                                        <h6 class="text-white ft_poppine ft_16 mb-0">
+                                                                            Swiming</h6>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
-                                                                <div class="card-body">
+                                                                <div class="card-body pb-0">
                                                                     <div class="custom_green_card">
                                                                         <div class="mb-2">
                                                                             <img src="./img/cards/p8.png" alt="">
                                                                         </div>
-                                                                        <h6 class="text-white mb-0">Studio</h6>
+                                                                        <h6 class="text-white ft_poppine ft_16 mb-0">
+                                                                            Studio</h6>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -331,12 +412,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-8 col-sm-8 col-md-12 col-lg-12">
+                                        <div class="col-8 col-sm-8 col-md-12 col-lg-11">
                                             <div class="row justify-content-md-end justify-content-center">
-                                                <div class="col-8 col-sm-8 col-md-4 col-lg-3">
-                                                    <div class="text-end">
+                                                <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                                    <div class="">
                                                         <button type="button"
-                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                            class="btn btn-dark next-step w-100 ft_18 fw-bold ft_poppine py-3">Next</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -360,7 +441,7 @@
                                                 </div>
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                                                     <div class="row align-items-center justify-content-center g-3">
-                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
                                                                 <div class="card-body">
                                                                     <div class="text-center mt-2">
@@ -369,7 +450,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
                                                                 <div class="card-body">
                                                                     <div class="text-center mt-2">
@@ -378,7 +459,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div
                                                                 class="card custom_green_card active rounded shadow-sm">
                                                                 <div class="card-body">
@@ -395,7 +476,11 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="row align-items-center justify-content-center g-3">
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
                                                                 <div class="card-body">
                                                                     <div class="text-center mt-2">
@@ -404,7 +489,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
                                                                 <div class="card-body">
                                                                     <div class="text-center mt-2">
@@ -413,7 +498,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="card custom_green_card rounded shadow-sm">
                                                                 <div class="card-body">
                                                                     <div class="text-center mt-2">
@@ -424,21 +509,21 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                            <div
-                                                class="row justify-content-md-between justify-content-center align-items-center g-3">
-                                                <div class="col-8 col-sm-8 col-md-4 col-lg-2">
-                                                    <div class="text-start">
-                                                        <button type="button"
-                                                            class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
-                                                    </div>
-                                                </div>
-                                                <div class="col-8 col-sm-8 col-md-4 col-lg-3">
-                                                    <div class="text-end">
-                                                        <button type="button"
-                                                            class="btn btn_green next-step w-100 py-3">Next</button>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-9 ">
+                                                    <div
+                                                        class="row justify-content-md-between justify-content-center align-items-center g-3">
+                                                        <div class="col-8 col-sm-8 col-md-4 col-lg-2">
+                                                            <div class="text-start">
+                                                                <button type="button"
+                                                                    class="btn bg-transparent text-decoration-underline text-dark fw-bold prev-step w-100 py-2">Back</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8 col-sm-8 col-md-4 col-lg-3">
+                                                            <div class="text-end">
+                                                                <button type="button"
+                                                                    class="btn btn-dark next-step w-100 py-3">Next</button>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
