@@ -65,3 +65,7 @@
 @media(min-width:768px) {}
 
 @media(max-width:768px) {}
+
+.w_100 {
+    width: 80% !important;
+}
