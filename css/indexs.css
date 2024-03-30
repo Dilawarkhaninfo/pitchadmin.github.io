@@ -466,33 +466,11 @@ p {
     color: red !important;
 }
 
-.tableWrapper {
-    background-color: #fff;
-    padding: 15px 5px;
-    border-radius: 6px;
-    font-family: "Montserrat", sans-serif;
-    width: 97%;
-}
 
 .dots {
     cursor: pointer;
 }
 
-tbody tr td {
-    padding: 15px 0 !important;
-    /* max-width: 40px; */
-    /* background-color: #28c66f !important; */
-    font-size: 14px;
-    border: none !important;
-}
-
-thead tr th {
-    padding: 15px 0 !important;
-    border: none !important;
-    font-size: 15px;
-    font-weight: 600;
-    color: #23496b;
-}
 
 tbody tr td:nth-child(3) {
     color: #e51d51;
@@ -503,9 +481,6 @@ tbody tr td:nth-child(7) {
     font-weight: 600;
 }
 
-.table-container {
-    overflow-x: auto;
-}
 
 .btndiv {
     display: flex;
