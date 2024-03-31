@@ -118,3 +118,10 @@
     color: #a0a0a0;
     font-size: 13px;
 }
+
+
+@media (max-width: 580px) {
+    .custom_bg {
+        background: url("../img/cards/small_bg.svg") no-repeat !important;
+    }
+}
