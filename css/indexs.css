@@ -739,3 +739,13 @@ tbody tr td:nth-child(7) {
         background-color: rgba(0, 0, 0, 0.5);
     }
 }
+
+.btn_green {
+    background: var(--mian-color-1);
+    color: #fff;
+}
+
+.btn_green:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}

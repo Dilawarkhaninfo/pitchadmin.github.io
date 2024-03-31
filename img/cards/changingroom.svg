@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.872" height="25.872" viewBox="0 0 25.872 25.872">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="25.872" height="25.872" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="locker_door_school_metal_storage_safety_lock_box_locker_room_cabinet" data-name="locker, door, school, metal, storage, safety, lock, box, locker room, cabinet" clip-path="url(#clip-path)">
+    <g id="locker_door_school_metal_storage_safety_lock_box_locker_room_cabinet-2" data-name="locker, door, school, metal, storage, safety, lock, box, locker room, cabinet" transform="translate(-2 -2)">
+      <path id="Path_510" data-name="Path 510" d="M25.1,2H16.784a2.772,2.772,0,0,0-1.848.721A2.772,2.772,0,0,0,13.088,2H4.772A2.772,2.772,0,0,0,2,4.772V22.328A2.772,2.772,0,0,0,4.772,25.1v1.848a.924.924,0,0,0,1.848,0V25.1h6.468a2.772,2.772,0,0,0,1.848-.721,2.772,2.772,0,0,0,1.848.721h6.468v1.848a.924.924,0,0,0,1.848,0V25.1a2.772,2.772,0,0,0,2.772-2.772V4.772A2.772,2.772,0,0,0,25.1,2ZM13.088,23.252H4.772a.924.924,0,0,1-.924-.924V4.772a.924.924,0,0,1,.924-.924h8.316a.924.924,0,0,1,.924.924V22.328A.924.924,0,0,1,13.088,23.252Zm12.936-.924a.924.924,0,0,1-.924.924H16.784a.924.924,0,0,1-.924-.924V4.772a.924.924,0,0,1,.924-.924H25.1a.924.924,0,0,1,.924.924Z" fill="#afea30"/>
+      <path id="Path_511" data-name="Path 511" d="M11.544,6H6.924a.924.924,0,1,0,0,1.848h4.62a.924.924,0,1,0,0-1.848Z" transform="translate(-0.304 -0.304)" fill="#afea30"/>
+      <path id="Path_512" data-name="Path 512" d="M11.544,10H6.924a.924.924,0,1,0,0,1.848h4.62a.924.924,0,1,0,0-1.848Z" transform="translate(-0.304 -0.608)" fill="#afea30"/>
+      <path id="Path_513" data-name="Path 513" d="M24.544,6h-4.62a.924.924,0,1,0,0,1.848h4.62a.924.924,0,0,0,0-1.848Z" transform="translate(-1.292 -0.304)" fill="#afea30"/>
+      <path id="Path_514" data-name="Path 514" d="M24.544,10h-4.62a.924.924,0,1,0,0,1.848h4.62a.924.924,0,0,0,0-1.848Z" transform="translate(-1.292 -0.608)" fill="#afea30"/>
+      <path id="Path_515" data-name="Path 515" d="M6.924,16A.924.924,0,0,0,6,16.924v.924a.924.924,0,1,0,1.848,0v-.924A.924.924,0,0,0,6.924,16Z" transform="translate(-0.304 -1.064)" fill="#afea30"/>
+      <path id="Path_516" data-name="Path 516" d="M19.924,16a.924.924,0,0,0-.924.924v.924a.924.924,0,1,0,1.848,0v-.924A.924.924,0,0,0,19.924,16Z" transform="translate(-1.292 -1.064)" fill="#afea30"/>
+    </g>
+  </g>
+</svg>

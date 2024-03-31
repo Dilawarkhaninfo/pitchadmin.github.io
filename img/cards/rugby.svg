@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.894" height="39.547" viewBox="0 0 37.894 39.547">
+  <g id="rugby" transform="translate(2.534 6.002) rotate(-5)">
+    <rect id="Rectangle_2997" data-name="Rectangle 2997" width="32.19" height="32.19" transform="translate(-0.945 -0.945)" fill="rgba(255,255,255,0.01)"/>
+    <g id="编组" transform="translate(-2.87 19.892) rotate(-45)">
+      <ellipse id="椭圆形" cx="16.095" cy="9.389" rx="16.095" ry="9.389" fill="none" stroke="#afea30" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path-20" d="M0,5.365V0" transform="translate(16.095 12.071) rotate(180)" fill="none" stroke="#afea30" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Path-20-2" data-name="Path-20" d="M0,5.365V0" transform="translate(20.119 12.071) rotate(180)" fill="none" stroke="#afea30" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Path-20-3" data-name="Path-20" d="M0,5.365V0" transform="translate(12.071 12.071) rotate(180)" fill="none" stroke="#afea30" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="路径-12" d="M0,0H21.46" transform="translate(5.365 9.394)" fill="none" stroke="#afea30" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Path-20-4" data-name="Path-20" d="M0,13.413V0" transform="translate(5.365 16.095) rotate(180)" fill="none" stroke="#afea30" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Path-20-5" data-name="Path-20" d="M0,13.413V0" transform="translate(26.825 16.095) rotate(180)" fill="none" stroke="#afea30" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
