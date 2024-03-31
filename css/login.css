@@ -120,8 +120,12 @@
 }
 
 
-@media (max-width: 580px) {
+@media (max-width: 768px) {
     .custom_bg {
-        background: url("../img/cards/small_bg.svg") no-repeat !important;
+        background: url("../img/cards/Scroll\ Group\ 1.png") no-repeat !important;
+    }
+
+    .login-right2 {
+        background: url("../img/cards/Scroll\ Group\ 1.png") no-repeat !important;
     }
 }
