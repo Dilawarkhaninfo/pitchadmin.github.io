@@ -31,6 +31,7 @@
     min-height: 70px !important;
     position: relative;
     border-radius: 10px !important;
+    cursor: pointer;
 }
 
 .custom_green_card.active {
@@ -42,7 +43,12 @@
     position: absolute;
     top: 35%;
     left: 42%;
+    display: none;
 
+}
+
+.custom_green_card.active .overlay {
+    display: block !important;
 }
 
 .border_bottom_line {
