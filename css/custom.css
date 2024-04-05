@@ -814,3 +814,12 @@ thead tr th {
 .ft_16 {
   font-size: 16px !important;
 }
+
+.bg_light2 {
+  background: var(--light-blue) !important;
+  border-radius: 20px;
+}
+
+.custom_block {
+  min-height: 500px !important;
+}
