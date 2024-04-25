@@ -1040,6 +1040,7 @@ tr {
 label {
     cursor: pointer;
 }
+
 .ellipsis {
     text-overflow: ellipsis;
     width: 100%;
@@ -1048,6 +1049,7 @@ label {
     z-index: 999;
     overflow: hidden;
 }
+
 .apply-selection {
     display: none;
     width: 100%;
@@ -1056,15 +1058,18 @@ label {
     border-bottom: 1px solid #ccc;
 
 }
+
 .ajax-link {
     display: none;
 }
+
 .checkboxes {
     margin: 0;
     display: none;
     border: 1px solid #ccc;
     border-top: 0;
 }
+
 .inner-wrap {
     padding: 5px 10px;
     max-height: 140px;
@@ -1142,7 +1147,7 @@ tbody tr td:nth-child(7) {
 }
 
 .custom_bg {
-    background: url("../img/images/Group\ 9990.svg") no-repeat;
+    background: url("../img/images/bglogin.svg") no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1153,7 +1158,7 @@ tbody tr td:nth-child(7) {
 }
 
 .login-right2 {
-    background: url("../img/images/Group\ 9990.svg") no-repeat;
+    background: url("../img/images/bglogin2.svg") no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1199,7 +1204,6 @@ tbody tr td:nth-child(7) {
 
 .form-control:focus {
     color: #212529;
-    font-size: 20px !important;
     border-color: none;
     outline: 0;
     box-shadow: none !important;
@@ -1219,11 +1223,11 @@ tbody tr td:nth-child(7) {
 
 @media (max-width: 768px) {
     .custom_bg {
-        background: url("../img/cards/Scroll\ Group\ 1.png") no-repeat !important;
+        background: url("../img/cards/bg12.png") no-repeat !important;
     }
 
     .login-right2 {
-        background: url("../img/cards/Scroll\ Group\ 1.png") no-repeat !important;
+        background: url("../img/cards/bg12.png") no-repeat !important;
     }
 }
 
@@ -1350,7 +1354,8 @@ tbody tr td:nth-child(7) {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    background-color: rgb(255, 255, 255) !important;
+    background-color: var(--mian-color-1) !important;
+    color: #fff !important;
 }
 
 .nav-link {
