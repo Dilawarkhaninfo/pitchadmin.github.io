@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
                 <div class="">on</div>
                 <div class="">
-                  <button class="form-control bg-transparent ft_14 text_red border-0 toggle-next ellipsis">
+                  <button class="form-control bg-transparent ft_12 text_red border-0 toggle-next ellipsis">
                     All Days
                     <span><i class="fas fa-chevron-down"></i></span>
                   </button>
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
                   </div>
                 </div>
                 <div class="">
-                  <button class="form-control bg-transparent ft_14 text_red border-0 toggle-next ellipsis">
+                  <button class="form-control bg-transparent ft_12 text_red border-0 toggle-next ellipsis">
                     All Spaces
                     <span><i class="fas fa-chevron-down"></i></span>
                   </button>
