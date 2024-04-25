@@ -230,8 +230,7 @@ a:focus {
 
 .wrapper {
   position: relative;
-  /* width: 100%; */
-  /* overflow: auto; */
+  overflow: hidden !important;
   background: rgb(250, 250, 250);
   height: 100vh;
 }
@@ -242,13 +241,17 @@ a:focus {
 
 #sidebar {
   position: absolute;
-  height: 100% !important;
+  height: calc(100vh - 20px);
+  /* Adjusted height */
   top: 0;
   bottom: 0;
   left: 0;
   z-index: 11;
   width: 250px;
-  overflow: auto !important;
+  overflow-y: auto;
+  /* y-axis par scroll */
+  overflow-x: hidden;
+  /* x-axis par scroll nahi hone dena */
   transition: all 0.3s;
   background: #ffffff;
 }
@@ -362,6 +365,12 @@ a:focus {
   transition: all 0.3s;
   background-color: rgb(250, 250, 250);
   padding: 0px 0px 0px 20px;
+  height: calc(100vh - 20px);
+  /* Adjusted height */
+
+  overflow-y: auto;
+  /* y-axis par scroll */
+  overflow-x: hidden;
 }
 
 .top-navbar {
@@ -816,10 +825,23 @@ thead tr th {
 }
 
 .bg_light2 {
-  background: var(--light-blue) !important;
+  background: #c5c5c5 !important;
   border-radius: 20px;
 }
 
 .custom_block {
-  min-height: 500px !important;
+  min-height: 300px !important;
+}
+
+
+#table_wrapper>div:nth-child(1) {
+  display: none !important;
+}
+
+.cus_selection {
+  display: none !important;
+}
+
+.cus_selection.active {
+  display: block !important;
 }

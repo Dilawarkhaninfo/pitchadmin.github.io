@@ -2,26 +2,17 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Website Page || Book a pitch cms</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!----css3---->
-    <link rel="stylesheet" href="css/earning-page.css" />
-    <link rel="stylesheet" href="css/website.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet" />
-    <!--google material icon-->
+
+    <!-- Styling start form here with links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/test.css" />
+
+    <!-- icons import start form here with links -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-bjeLJdBT2DHvUKrxz2Pz73Okt7YfIgqz0gpr8bUdZHgym8sXsCxw+hpUkkVsmjgLON8/1gR/zDme3ODp7kpF3Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,6 +22,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script src="https://cdn.ckeditor.com/ckeditor5/36.0.0/classic/ckeditor.js">
     </script>
+
 </head>
 
 <body>
@@ -123,7 +115,7 @@
                     </button>
                     <div class="d-flex align-items-center justify-content-between  ">
                         <div class="border_right1">
-                            <h5 class="fw-bold">Manage Website</h5>
+                            <h5 class="fw-bold ft_open">Manage Website</h5>
                         </div>
                         <div class="mx-3 mt-3">
                             <nav aria-label="breadcrumb">
@@ -162,10 +154,14 @@
                             <span class="name">John Doe</span>
                         </div>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item text-muted" href="#">Profile</a></li>
-                            <li><a class="dropdown-item text-muted" href="#">Settings</a></li>
-                            <li><a class="dropdown-item text-muted" href="#">Logout</a></li>
+                            <li><a class="dropdown-item text-muted" href="#"><i class="fas fa-user"></i> Profile</a>
+                            </li>
+                            <li><a class="dropdown-item text-muted" href="#"><i class="fas fa-cog"></i> Settings</a>
+                            </li>
+                            <li><a class="dropdown-item text-muted" href="#"><i class="fas fa-sign-out-alt"></i>
+                                    Logout</a></li>
                         </ul>
+
                     </div>
                 </div>
             </div>
@@ -238,17 +234,48 @@
                                                             <div
                                                                 class="row align-items-center justify-content-center g-3 my-3">
                                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="d-flex align-items-center">
-                                                                        <div class="border p-3">
-                                                                            <img src="./img/logo7.png" class="img-fluid"
-                                                                                alt="">
+
+                                                                    <div class="d-flex align-items-end">
+
+                                                                        <div class="">
+                                                                            <h6>logo</h6>
+                                                                            <div class="">
+                                                                                <div class="text-center"
+                                                                                    id="uploadContent">
+                                                                                    <!-- Upload input field -->
+                                                                                    <div class="custom-upload"
+                                                                                        onclick="triggerUpload()">
+                                                                                        <input type="file"
+                                                                                            class="form-control-file"
+                                                                                            style="display: none;"
+                                                                                            id="uploadInput"
+                                                                                            aria-describedby="uploadHelp"
+                                                                                            onchange="handleFileUpload(event)">
+                                                                                        <h5 id="uploadHelp"
+                                                                                            class="form-text fw-bold">
+                                                                                            Drop
+                                                                                            About us section Images here
+                                                                                        </h5>
+                                                                                        <div class="mt-3">
+                                                                                            <i
+                                                                                                class="fas fa-upload ft-16"></i>
+                                                                                        </div>
+                                                                                        <!-- Image placeholder -->
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="">
+                                                                                    <img id="uploadedImage"
+                                                                                        class="img-fluid mt-3 border rounded "
+                                                                                        style="display: none;"
+                                                                                        alt="Uploaded Image" width="200"
+                                                                                        height="50">
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                         <div class="px-2">
-                                                                            <input type="file" id="fileUpload"
-                                                                                style="display: none;" />
                                                                             <button
-                                                                                class="btn btn_green text-white px-2 py-1 mb-2"
-                                                                                onclick="document.getElementById('fileUpload').click();">Upload</button>
+                                                                                class="btn btn_green text-white px-2 py-1 mb-2">Upload</button>
                                                                             <p class="ft_14">Allowed JPG, JPEG, or <br>
                                                                                 PNG, SVG Max
                                                                                 size of 800KB</p>
@@ -256,17 +283,46 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="d-flex align-items-center">
+                                                                    <div class="d-flex align-items-end">
                                                                         <div class="">
                                                                             <h6>banner</h6>
-                                                                            <img src="./img/logo8.png" alt="">
+                                                                            <div class="">
+                                                                                <div class="text-center"
+                                                                                    id="uploadContent2">
+                                                                                    <!-- Upload input field -->
+                                                                                    <div class="custom-upload"
+                                                                                        onclick="triggerUpload2()">
+                                                                                        <input type="file"
+                                                                                            class="form-control-file"
+                                                                                            style="display: none;"
+                                                                                            id="uploadInput2"
+                                                                                            aria-describedby="uploadHelp"
+                                                                                            onchange="handleFileUpload2(event)">
+                                                                                        <h5 id="uploadHelp"
+                                                                                            class="form-text fw-bold">
+                                                                                            Drop
+                                                                                            About us section Images here
+                                                                                        </h5>
+                                                                                        <div class="mt-3">
+                                                                                            <i
+                                                                                                class="fas fa-upload ft-16"></i>
+                                                                                        </div>
+                                                                                        <!-- Image placeholder -->
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="">
+                                                                                    <img id="uploadedImage2"
+                                                                                        class="img-fluid mt-3 border rounded "
+                                                                                        style="display: none;"
+                                                                                        alt="Uploaded Image" width="200"
+                                                                                        height="50">
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                         <div class="px-2">
-                                                                            <input type="file" id="fileUpload"
-                                                                                style="display: none;" />
                                                                             <button
-                                                                                class="btn btn_green text-white px-2 py-1 mb-2"
-                                                                                onclick="document.getElementById('fileUpload').click();">Upload</button>
+                                                                                class="btn btn_green text-white px-2 py-1 mb-2">Upload</button>
                                                                             <p class="ft_14">Allowed JPG, JPEG, or <br>
                                                                                 PNG, SVG Max
                                                                                 size of 800KB</p>
@@ -275,36 +331,49 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                                                             <div
                                                                 class="row align-items-center justify-content-between g-3">
-                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="">
-                                                                        <h5 class="fw-bold">Banner Headline</h5>
-                                                                        <div class="border p-3">
-                                                                            <p class="mb-3">Welcome to Harborne Academy
-                                                                            </p>
+                                                                        <h5 class="fw-normal ft_open">Banner Headline
+                                                                        </h5>
+                                                                        <div class="">
+                                                                            <textarea class="form-control"
+                                                                                rows="2">Welcome to Harborne Academy</textarea>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="">
-                                                                        <div class="text-center">
+                                                                        <div class="text-center" id="uploadContent3">
                                                                             <!-- Upload input field -->
                                                                             <div class="custom-upload"
-                                                                                onclick="triggerUpload()">
+                                                                                onclick="triggerUpload3()">
                                                                                 <input type="file"
                                                                                     class="form-control-file"
                                                                                     style="display: none;"
-                                                                                    id="uploadInput"
-                                                                                    aria-describedby="uploadHelp">
+                                                                                    id="uploadInput3"
+                                                                                    aria-describedby="uploadHelp"
+                                                                                    onchange="handleFileUpload3(event)">
                                                                                 <h5 id="uploadHelp"
-                                                                                    class="form-text fw-bold ">Drop
-                                                                                    About us section Images here</h5>
+                                                                                    class="form-text fw-bold">
+                                                                                    Drop
+                                                                                    About us section Images here
+                                                                                </h5>
                                                                                 <div class="mt-3">
                                                                                     <i class="fas fa-upload ft-16"></i>
                                                                                 </div>
+                                                                                <!-- Image placeholder -->
+
                                                                             </div>
+                                                                        </div>
+                                                                        <div class="">
+                                                                            <img id="uploadedImage3"
+                                                                                class="img-fluid mt-3 border rounded "
+                                                                                style="display: none;"
+                                                                                alt="Uploaded Image" width="200"
+                                                                                height="50">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -312,27 +381,14 @@
                                                         </div>
                                                         <div class="col-12">
                                                             <div class="">
-                                                                <h5 class="fw-bold ">About us Description</h5>
-                                                                <div class="border p-3">
-                                                                    <p class="pb-5">
-                                                                        We're your one-stop-shop for playing tennis in
-                                                                        Newbury and
-                                                                        Thatcham! We offer pay & play and affordable
-                                                                        household
-                                                                        memberships that make it super easy to pick up a
-                                                                        racket. We aim
-                                                                        to make tennis easily accessible with low
-                                                                        charges, professional
-                                                                        organisation and engaging activities for the
-                                                                        local community.
-                                                                        Our focus is to promote tennis throughout the
-                                                                        year for all age
-                                                                        groups, both adults and children, through social
-                                                                        play, internal
-                                                                        competition, matches, and professional coaching
-                                                                        to any player
-                                                                        who wants to improve their game.
-                                                                    </p>
+                                                                <h5 class="fw-normal ft_open">About us Description</h5>
+                                                                <div class="">
+                                                                    <div class="mb-3">
+                                                                        <textarea class="form-control"
+                                                                            id="textareaContent"
+                                                                            rows="8">We're your one-stop-shop for playing tennis in Newbury and Thatc play and affordable household memberships that make it super easy to pick up a racket. We aim to make tennis easily accessible with low charges, professional organisation and engaging activities for the local community. Our focus is to promote tennis throughout the year for all age groups, both adults and children, through social play, internal competition, matches, and professional coaching to any player who wants to improve their game.</textarea>
+                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -433,7 +489,7 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="">
-                                                            <h5 class="text-muted">Content</h5>
+                                                            <h5 class="text-muted">Term & Conditions Content</h5>
                                                             <hr>
                                                             <div class="">
                                                                 <textarea name="editor" id="editor" value=""
@@ -465,7 +521,40 @@
                                             </div>
 
                                             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                                aria-labelledby="v-pills-settings-tab">settings</div>
+                                                aria-labelledby="v-pills-settings-tab">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="">
+                                                            <h5 class="text-muted">Privacy Policy Content</h5>
+                                                            <hr>
+                                                            <div class="">
+                                                                <textarea name="editor2" id="editor2" value=""
+                                                                    placeholder="Product Details"
+                                                                    class="form-control p-2" rows="30" cols="50">This page contains the legal terms and conditions that apply to your use of the websites www.pitchabook.com, harbone.pitchabook or any Facility websites using our products or services ("Site") and applications for mobile, tablet and other smart devices and application program interfaces (collectively, the "Application") including by accessing and browsing it, printing, copying and downloading from it, posting to it, linking to or from it or registering with it ("Use") (collectively, the "Site Terms"). You must read these Site Terms. By your continuing Use, you confirm that you have read, understood and agree with these Site Terms in their entirety. If you do not agree to these Site Terms in their entirety, you must not Use or continue to Use this Site or Application.
+                                                            </textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row justify-content-start align-items-center g-3">
+                                                            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                <div class="text-center mt-md-4">
+                                                                    <button class="btn btn_green w-100 py-md-2">
+                                                                        Save Settings
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                                                                <div class="text-center mt-md-4">
+                                                                    <button class="btn btn_green_outline w-100 py-md-2">
+                                                                        Cancel
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="tab-pane fade" id="v-pills-contact" role="tabpanel"
                                                 aria-labelledby="v-pills-contact-tab">
                                                 <div class="">
@@ -475,14 +564,35 @@
                                                                 <label for="your-name" class="form-label">
                                                                     Banner
                                                                 </label>
-                                                                <div class="border p-2">
-                                                                    <img src="./img/logo8.png" class="img-fluid w-100"
-                                                                        alt="">
+                                                                <div class="">
+                                                                    <div class="text-center" id="uploadContent4">
+                                                                        <!-- Upload input field -->
+                                                                        <div class="custom-upload"
+                                                                            onclick="triggerUpload4()">
+                                                                            <input type="file" class="form-control-file"
+                                                                                style="display: none;" id="uploadInput4"
+                                                                                aria-describedby="uploadHelp"
+                                                                                onchange="handleFileUpload4(event)">
+                                                                            <h5 id="uploadHelp"
+                                                                                class="form-text fw-bold">Drop
+                                                                                About us section Images here
+                                                                            </h5>
+                                                                            <div class="mt-3">
+                                                                                <i class="fas fa-upload ft-16"></i>
+                                                                            </div>
+                                                                            <!-- Image placeholder -->
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="">
+                                                                        <img id="uploadedImage4"
+                                                                            class="img-fluid mt-3 border rounded "
+                                                                            style="display: none;" alt="Uploaded Image"
+                                                                            width="200" height="50">
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                                                                <input type="file" id="img-upload" class="d-none"
-                                                                    name="" id="">
                                                                 <label for="img-upload"
                                                                     class="btn btn_green">Upload</label>
                                                                 <div class="mt-3">
@@ -494,9 +604,10 @@
                                                                 <label for="your-name" class="form-label">
                                                                     Banner Headline
                                                                 </label>
-                                                                <input type="text" class="form-control rounded-0 pb-3"
-                                                                    id="your-name" name="your-name"
-                                                                    value="Contact Us and FAQ" required>
+                                                                <div class="">
+                                                                    <textarea class="form-control"
+                                                                        rows="2">Contact Us FAQ</textarea>
+                                                                </div>
                                                             </div>
                                                             <div class="col-md-6">
                                                                 <label for="your-name" class="form-label">
@@ -602,27 +713,26 @@
                                                     <div class="row align-items-center justify-content-center g-3">
                                                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                                                             <div class="text-center">
-                                                                <div class="card border-0" id="card1">
+                                                                <div class="card border-0 ">
                                                                     <div class="card-body">
                                                                         <div class="custom_card">
                                                                             <h6 class="text-muted mb-0 text-start">
-                                                                                Default Theme
-                                                                            </h6>
+                                                                                Default Theme</h6>
                                                                             <div class="text-center">
-                                                                                <div class="w_200_h200">
+                                                                                <div class="w_200_h200"
+                                                                                    onclick="toggleCustomClass(this)">
                                                                                     <img src="./img/live/def1.png"
-                                                                                        class="img-fluid cus_select"
-                                                                                        alt="">
+                                                                                        class="img-fluid" alt="">
                                                                                 </div>
-                                                                                <div class="overlay position-relative">
+                                                                                <div
+                                                                                    class="overlay position-relative cus_selection">
                                                                                     <span class="text-white fs-3">
                                                                                         <i
                                                                                             class="fas fa-circle-check"></i>
                                                                                     </span>
                                                                                 </div>
                                                                                 <div class="text-center my-2">
-                                                                                    <button class="btn btn_green"
-                                                                                        onclick="activateCard('card1')">Live
+                                                                                    <button class="btn btn_green">Live
                                                                                         Preview</button>
                                                                                 </div>
                                                                             </div>
@@ -636,24 +746,53 @@
                                                                 <div class="card border-0" id="card2">
                                                                     <div class="card-body">
                                                                         <div class="custom_card">
-                                                                            <h6 class="text-muted mb-0 text-start">
-                                                                                Pitch Style Theme
-                                                                            </h6>
+                                                                            <h6 class="text-muted mb-0 text-start">Pitch
+                                                                                Style Theme</h6>
                                                                             <div class="text-center">
-                                                                                <div class="w_200_h200">
+                                                                                <div class="w_200_h200"
+                                                                                    onclick="toggleCustomClass(this)">
                                                                                     <img src="./img/live/def2.png"
                                                                                         class="img-fluid" alt="">
                                                                                 </div>
                                                                                 <div
-                                                                                    class="overlay position-relative d-none">
+                                                                                    class="overlay position-relative cus_selection">
                                                                                     <span class="text-white fs-3">
                                                                                         <i
                                                                                             class="fas fa-circle-check"></i>
                                                                                     </span>
                                                                                 </div>
                                                                                 <div class="text-center my-2">
-                                                                                    <button class="btn btn_green"
-                                                                                        onclick="activateCard('card2')">Live
+                                                                                    <button class="btn btn_green">Live
+                                                                                        Preview</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                                            <div class="text-center">
+                                                                <div class="card border-0">
+                                                                    <div class="card-body">
+                                                                        <div class="custom_card">
+                                                                            <h6 class="text-muted mb-0 text-start">Court
+                                                                                Style</h6>
+                                                                            <div class="text-center">
+                                                                                <div class="w_200_h200"
+                                                                                    onclick="toggleCustomClass(this)">
+                                                                                    <img src="./img/live/def1.png"
+                                                                                        class="img-fluid" alt="">
+                                                                                </div>
+                                                                                <div
+                                                                                    class="overlay position-relative cus_selection">
+                                                                                    <span class="text-white fs-3">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="text-center my-2">
+                                                                                    <button class="btn btn_green">Live
                                                                                         Preview</button>
                                                                                 </div>
                                                                             </div>
@@ -668,24 +807,23 @@
                                                                     <div class="card-body">
                                                                         <div class="custom_card">
                                                                             <h6 class="text-muted mb-0 text-start">
-                                                                                Court Style
-                                                                            </h6>
+                                                                                Gallery Style</h6>
                                                                             <div class="text-center">
-                                                                                <div class="w_200_h200">
-                                                                                    <img src="./img/def.png"
+                                                                                <div class="w_200_h200"
+                                                                                    onclick="toggleCustomClass(this)">
+                                                                                    <img src="./img/live/def4.png"
                                                                                         class="img-fluid" alt="">
                                                                                 </div>
                                                                                 <div
-                                                                                    class="overlay position-relative d-none">
+                                                                                    class="overlay position-relative cus_selection">
                                                                                     <span class="text-white fs-3">
                                                                                         <i
                                                                                             class="fas fa-circle-check"></i>
                                                                                     </span>
                                                                                 </div>
                                                                                 <div class="text-center my-2">
-                                                                                    <button class="btn btn_green">
-                                                                                        Live Preview
-                                                                                    </button>
+                                                                                    <button class="btn btn_green">Live
+                                                                                        Preview</button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -699,45 +837,23 @@
                                                                     <div class="card-body">
                                                                         <div class="custom_card">
                                                                             <h6 class="text-muted mb-0 text-start">
-                                                                                Gallery Style
-                                                                            </h6>
+                                                                                Tournament Style</h6>
                                                                             <div class="text-center">
-                                                                                <div class="w_200_h200">
-                                                                                    <img src="./img/live/def4.png"
-                                                                                        class="img-fluid" alt="">
-
-                                                                                </div>
-                                                                                <div class="overlay"></div>
-                                                                                <div class="text-center my-2">
-                                                                                    <button class="btn btn_green">
-                                                                                        Live Preview
-                                                                                    </button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                                                            <div class="text-center">
-                                                                <div class="card border-0">
-                                                                    <div class="card-body">
-                                                                        <div class="custom_card">
-                                                                            <h6 class="text-muted mb-0 text-start">
-                                                                                Tournament Style
-                                                                            </h6>
-                                                                            <div class="text-center">
-                                                                                <div class="w_200_h200">
+                                                                                <div class="w_200_h200"
+                                                                                    onclick="toggleCustomClass(this)">
                                                                                     <img src="./img/live/def5.png"
                                                                                         class="img-fluid" alt="">
-
                                                                                 </div>
-                                                                                <div class="overlay"></div>
+                                                                                <div
+                                                                                    class="overlay position-relative cus_selection">
+                                                                                    <span class="text-white fs-3">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </div>
                                                                                 <div class="text-center my-2">
-                                                                                    <button class="btn btn_green">
-                                                                                        Live Preview
-                                                                                    </button>
+                                                                                    <button class="btn btn_green">Live
+                                                                                        Preview</button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -751,19 +867,23 @@
                                                                     <div class="card-body">
                                                                         <div class="custom_card">
                                                                             <h6 class="text-muted mb-0 text-start">
-                                                                                News Style
-                                                                            </h6>
+                                                                                News Style</h6>
                                                                             <div class="text-center">
-                                                                                <div class="w_200_h200">
+                                                                                <div class="w_200_h200"
+                                                                                    onclick="toggleCustomClass(this)">
                                                                                     <img src="./img/live/def6.png"
                                                                                         class="img-fluid" alt="">
-
                                                                                 </div>
-                                                                                <div class="overlay"></div>
+                                                                                <div
+                                                                                    class="overlay position-relative cus_selection">
+                                                                                    <span class="text-white fs-3">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </div>
                                                                                 <div class="text-center my-2">
-                                                                                    <button class="btn btn_green">
-                                                                                        Live Preview
-                                                                                    </button>
+                                                                                    <button class="btn btn_green">Live
+                                                                                        Preview</button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -777,19 +897,23 @@
                                                                     <div class="card-body">
                                                                         <div class="custom_card">
                                                                             <h6 class="text-muted mb-0 text-start">
-                                                                                Classes Style
-                                                                            </h6>
+                                                                                Classes Style</h6>
                                                                             <div class="text-center">
-                                                                                <div class="w_200_h200">
+                                                                                <div class="w_200_h200"
+                                                                                    onclick="toggleCustomClass(this)">
                                                                                     <img src="./img/live/def7.png"
                                                                                         class="img-fluid" alt="">
-
                                                                                 </div>
-                                                                                <div class="overlay"></div>
+                                                                                <div
+                                                                                    class="overlay position-relative cus_selection">
+                                                                                    <span class="text-white fs-3">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </div>
                                                                                 <div class="text-center my-2">
-                                                                                    <button class="btn btn_green">
-                                                                                        Live Preview
-                                                                                    </button>
+                                                                                    <button class="btn btn_green">Live
+                                                                                        Preview</button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -803,19 +927,23 @@
                                                                     <div class="card-body">
                                                                         <div class="custom_card">
                                                                             <h6 class="text-muted mb-0 text-start">
-                                                                                Booking Style
-                                                                            </h6>
+                                                                                Booking Style</h6>
                                                                             <div class="text-center">
-                                                                                <div class="w_200_h200">
+                                                                                <div class="w_200_h200"
+                                                                                    onclick="toggleCustomClass(this)">
                                                                                     <img src="./img/live/def4.png"
                                                                                         class="img-fluid" alt="">
-
                                                                                 </div>
-                                                                                <div class="overlay"></div>
+                                                                                <div
+                                                                                    class="overlay position-relative cus_selection">
+                                                                                    <span class="text-white fs-3">
+                                                                                        <i
+                                                                                            class="fas fa-circle-check"></i>
+                                                                                    </span>
+                                                                                </div>
                                                                                 <div class="text-center my-2">
-                                                                                    <button class="btn btn_green">
-                                                                                        Live Preview
-                                                                                    </button>
+                                                                                    <button class="btn btn_green">Live
+                                                                                        Preview</button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -833,73 +961,17 @@
                         </div>
                     </div>
             </section>
-
             <!-- end -->
         </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Js start form here with links -->
+    <script src="./js/website.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-8co7tL+Lw4lgrdOG7oyZeK7ffxOuI9RtByGxTka9aTENztk5ZJPGmTqSuwEUWR9H"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"
-        integrity="sha384-gbJexAp5GvFYi5Lcrxcn2bVivczhdcs7j47GZGACCZt8wFQhVgQqXd30njX0Wo2d"
-        crossorigin="anonymous"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/website.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-
-
-
-    <script>
-        ClassicEditor
-            .create(document.querySelector('#editor'))
-            .catch(error => {
-                console.error(error);
-            });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $("#sidebarCollapse").on("click", function () {
-                $("#sidebar").toggleClass("active");
-                $("#content").toggleClass("active");
-                $("#admin").toggleClass("hidden_admin");
-            });
-
-            $(".more-button, .body-overlay").on("click", function () {
-                $("#sidebar, .body-overlay").toggleClass("show-nav");
-            });
-        });
-    </script>
-    <script>
-        // Activate Bootstrap dropdown on the image
-        var dropdownImage = document.getElementById("dropdownImage");
-        dropdownImage.addEventListener("click", function () {
-            var dropdownMenu = this.nextElementSibling;
-            dropdownMenu.classList.toggle("show");
-        });
-    </script>
-
-    <script>
-        function activateCard(cardId) {
-            // Remove the .cus_select class from all cards
-            var cards = document.querySelectorAll('.card');
-            cards.forEach(function (card) {
-                card.querySelector('.cus_select').classList.remove('cus_select');
-            });
-
-            // Add the .cus_select class to the clicked card
-            document.getElementById(cardId).querySelector('.cus_select').classList.add('cus_select');
-        }
-    </script>
-    <script>
-        function triggerUpload() {
-            document.getElementById('uploadInput').click();
-        }
-    </script>
+    <script src="./js/custom.js"></script>
 </body>
 
 </html>

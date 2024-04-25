@@ -1,0 +1,1493 @@
+@import url("https://fonts.googleapis.com/css?family=Nova+Slim&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nova+Slim&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+
+
+body,
+html {
+    line-height: 1.8;
+    font-family: "Roboto", sans-serif;
+    color: #020202;
+    text-transform: capitalize;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(250, 250, 250);
+}
+
+:root {
+    /* Colors: */
+    --unnamed-color-fafafa: #fafafa;
+    --unnamed-color-63e2f1: #63e2f1;
+    --unnamed-color-f3f3f3: #f3f3f3;
+    --unnamed-color-ffab00: #ffab00;
+    --unnamed-color-c5c5c5: #c5c5c5;
+    --unnamed-color-ec5453: #ec5453;
+    --unnamed-color-28c66f: #28c66f;
+    --unnamed-color-656565: #656565;
+    --unnamed-color-6259ce: #6259ce;
+    --unnamed-color-ffffff: #ffffff;
+    --unnamed-color-1e1e1e: #1e1e1e;
+    --light-blue: #AAB7C4;
+    --light-white: #8798AB;
+    --mian-color-1: #024138;
+    --mian-color-2: rgb(98, 89, 206);
+    --bg-main-color-1: rgb(255, 255, 255);
+
+    /* Font/text values */
+    --unnamed-font-family-open-sans: Open Sans;
+    --unnamed-font-family-roboto: Roboto;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-600: 600px;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-16: 16px;
+    --unnamed-font-size-18: 18px;
+    --unnamed-font-size-24: 24px;
+    --unnamed-font-size-34: 34px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-14: 14px;
+    --unnamed-line-spacing-21: 21px;
+    --unnamed-line-spacing-24: 24px;
+    --unnamed-line-spacing-33: 33px;
+    --unnamed-line-spacing-45: 45px;
+    --unnamed-text-transform-titlecase: titlecase;
+
+    /* border radius  */
+    --border-radius-mian: 15px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+    font-family: var(--unnamed-font-family-open-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-14);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1e1e1e);
+}
+
+.unnamed-character-style-2 {
+    font-family: var(--unnamed-font-family-open-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-600);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-14);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1e1e1e);
+}
+
+.unnamed-character-style-3 {
+    font-family: var(--unnamed-font-family-open-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-14);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-656565);
+}
+
+.unnamed-character-style-4 {
+    font-family: var(--unnamed-font-family-roboto);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-medium);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-21);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1e1e1e);
+}
+
+.unnamed-character-style-5 {
+    font-family: var(--unnamed-font-family-open-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-18);
+    line-height: var(--unnamed-line-spacing-24);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-656565);
+}
+
+.unnamed-character-style-6 {
+    font-family: var(--unnamed-font-family-open-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-600);
+    font-size: var(--unnamed-font-size-24);
+    line-height: var(--unnamed-line-spacing-33);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1e1e1e);
+    text-transform: var(--unnamed-text-transform-titlecase);
+}
+
+.unnamed-character-style-7 {
+    font-family: var(--unnamed-font-family-roboto);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-bold);
+    font-size: var(--unnamed-font-size-34);
+    line-height: var(--unnamed-line-spacing-45);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1e1e1e);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4 {
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+p {
+    font-size: 15px;
+    margin: 12px 0 0;
+    line-height: 24px;
+}
+
+a {
+    color: #333;
+    font-weight: 400;
+}
+
+button:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/*=======================================================
+  material-icons  copy & paste form site google material-icons
+  ==================================================*/
+
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local("Material Icons"), local("MaterialIcons-Regular"),
+        url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+        url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+        url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+.material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: "liga";
+}
+
+/*=======================================================
+  material-icons  copy & paste form site google material-icons
+  ==================================================*/
+
+.wrapper {
+    position: relative;
+    overflow: hidden !important;
+    background: rgb(250, 250, 250);
+    height: 100vh;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE start
+----------------------------------------------------- */
+
+#sidebar {
+    position: absolute;
+    height: calc(100vh - 20px);
+    /* Adjusted height */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 11;
+    width: 250px;
+    overflow-y: auto;
+    /* y-axis par scroll */
+    overflow-x: hidden;
+    /* x-axis par scroll nahi hone dena */
+    transition: all 0.3s;
+    background: #ffffff;
+}
+
+#sidebar::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+    background-color: #eee;
+    display: none;
+}
+
+#sidebar::-webkit-scrollbar-thumbs {
+    width: 5px;
+    border-radius: 10px;
+    background-color: #333;
+    display: none;
+}
+
+#sidebar:hover::-webkit-scrollbar {
+    display: block;
+}
+
+#sidebar:hover::-webkit-scrollbar-thumbs {
+    display: block;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+}
+
+.sidebar-header h3 {
+    color: #333;
+    font-size: 17px;
+    margin: 0px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-weight: 600;
+}
+
+.sidebar-header h3 img {
+    width: 45px;
+    margin-right: 10px;
+}
+
+#sidebar ul li {
+    padding: 2px 7px;
+}
+
+#sidebar ul li a:hover,
+#sidebar ul li a:hover i {
+    color: #024138 !important;
+    font-weight: bolder;
+}
+
+#sidebar ul li.active {
+    border-right: 5px solid #024138;
+    border-radius: 0 !important;
+}
+
+#sidebar ul li.active a,
+#sidebar ul li.active a i {
+    font-weight: bold;
+    color: #024138 !important;
+}
+
+.dropdown-toggle::after {
+    position: absolute;
+    right: 10px;
+    top: 23px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    font-weight: 400;
+    display: block;
+}
+
+#sidebar ul li a span {
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+#sidebar ul li a i {
+    position: relative;
+    margin-right: 10px;
+    top: 5px;
+    color: #555555;
+    margin-left: 10px;
+}
+
+/* ---------------------------------------------------
+   sidebar end
+----------------------------------------------------- */
+
+/*=======================================================
+   main-content navbar-design start
+   ===============================================*/
+
+#content {
+    position: relative;
+    transition: all 0.3s;
+    background-color: rgb(250, 250, 250);
+    padding: 0px 0px 0px 20px;
+    height: calc(100vh - 20px);
+    /* Adjusted height */
+
+    overflow-y: auto;
+    /* y-axis par scroll */
+    overflow-x: hidden;
+}
+
+
+.top-navbar {
+    width: 98%;
+    z-index: 9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-radius: 15px;
+    height: 70px;
+}
+
+
+#sidebarCollapse {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 20px;
+    border: none;
+    color: #ffffff;
+    background-color: #ffff;
+}
+
+#sidebarCollapse span {
+    margin: 9px;
+    padding: 0px;
+}
+
+/* ---------  Code ---------- */
+
+.toggleIcon,
+svg {
+    vertical-align: baseline;
+}
+
+.profile-img {
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/venue_cards/venus_card_icon (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+.Vr {
+    border-right: 1px solid rgb(160, 160, 160);
+    height: 30px;
+}
+
+
+/* -------- Cards ---------- */
+
+.cards {
+    width: 96%;
+}
+
+.box {
+    background-color: #024138;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.box img {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+.t-book-num {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.booking-text {
+    font-size: 16px;
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    right: 20px;
+    z-index: 1000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.dropdown-item .dd {
+    color: red !important;
+}
+
+.tableWrapper {
+    background-color: #fff;
+    padding: 15px 5px;
+    border-radius: 6px;
+    font-family: "Montserrat", sans-serif;
+    width: 97%;
+}
+
+.dots {
+    cursor: pointer;
+}
+
+.btndiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seeAllBtn {
+    width: 13%;
+    background-color: #024138;
+    color: white;
+}
+
+.seeAllBtn:hover {
+    background-color: #036859;
+    color: white;
+}
+
+/* ------------------ Footer --------------- */
+.footer {
+    margin-top: 100px;
+    background-color: #111518;
+    font-family: "Montserrat", sans-serif;
+    padding: 40px 0;
+}
+
+.footerPara {
+    max-width: 80%;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ffffffa8;
+}
+
+.footer ul li {
+    margin-top: 7px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffffffa8;
+}
+
+.footer h5 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer-copyright {
+    color: #a0a0a0;
+    font-size: 13px;
+}
+
+/*=======================================================
+   main-content navbar-design end
+   ===============================================*/
+
+.main {
+    background-color: #ffffff;
+    min-height: 100vh;
+    color: #020202;
+}
+
+/*=======================================================
+   main-content navbar-design start
+   ===============================================*/
+
+/*=======================================================
+   main-content inner design like card start
+   ===============================================*/
+
+/* media quries for top card   */
+@media (max-width: 1450px) {}
+
+@media (max-width: 1140px) {}
+
+@media (max-width: 550px) {}
+
+/*=============================================
+  bottom card end 
+  =========================================*/
+
+#sidebar.show-nav,
+.body-overlay.show-nav {
+    transform: translatex(0%);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+    z-index: 15;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+/* for dashboard card   */
+@media (max-width: 600px) {
+    .top_card {
+        margin-top: 1rem;
+    }
+
+    .bottom_card {
+        margin-top: 1rem;
+    }
+
+    .services_card_main {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}
+
+/* for top navbar  */
+@media (max-width: 950px) {
+    .prent_row {
+        overflow: scroll !important;
+    }
+
+    .top-navbar {
+        margin-top: 0;
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        border-radius: 0px;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .sm_dash p {
+        font-size: 20px !important;
+        font-weight: bold;
+        color: black;
+    }
+
+    .nav-links {
+        display: none !important;
+    }
+
+    .more-button {
+        background: none;
+        border: none;
+        display: block;
+        /* background-color: red; */
+    }
+
+    .material-symbols-outlined {
+        font-size: 25px !important;
+    }
+}
+
+/* for top navbar  */
+@media (max-width: 600px) {
+    .top-navbar {
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0 !important;
+        border-radius: 0px;
+    }
+
+    .sm_dash {
+        font-size: 30px !important;
+        font-weight: bold;
+        color: black;
+    }
+
+    .sm_dash p {
+        font-size: 20px !important;
+        font-weight: bold;
+        color: black;
+    }
+
+    .nav-links {
+        display: none !important;
+    }
+
+    .more-button {
+        background: none;
+        border: none;
+        display: block;
+    }
+
+    .material-symbols-outlined {
+        font-size: 25px !important;
+    }
+}
+
+/* for main content  */
+
+@media (max-width: 600px) {
+    #content {
+        padding: 0;
+    }
+
+    #contentw {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #sidebar.active {
+        width: 80px;
+        height: 100% !important;
+        position: absolute !important;
+        overflow: visible !important;
+        top: 0 !important;
+        z-index: 666;
+        float: left !important;
+        bottom: 0 !important;
+    }
+
+    #sidebar.active .sidebar-header h3 span {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    #sidebar.active ul li a span {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    #sidebar.active .dropdown-toggle::after {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    #content {
+        width: calc(100% - 260px);
+        position: relative;
+        float: right;
+        transition: all 0.3s;
+        background-color: rgb(250, 250, 250);
+    }
+
+    #contentw {
+        width: calc(100% - 260px);
+        position: relative;
+        float: right;
+        transition: all 0.3s;
+        background-color: rgb(250, 250, 250);
+    }
+
+    #content.active {
+        width: calc(100% - 80px);
+    }
+
+    #contentw.active {
+        width: calc(100% - 80px);
+    }
+
+    #sidebar.active .menu {
+        position: absolute;
+        left: 81px;
+        background-color: white;
+        width: 180px;
+        height: auto;
+        margin: 5px 0;
+        top: 0;
+        border: 1px solid #dcd9d9;
+        z-index: 4;
+    }
+}
+
+/*===============small-screen overlay sidebar design media queries==============*/
+
+@media only screen and (max-width: 992px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        z-index: 10;
+        width: 260px;
+        transform: translatex(-100%);
+        transition: all 150ms linear;
+        box-shadow: none !important;
+    }
+
+    .body-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 3;
+        transition: all 150ms linear;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.text_light {
+    color: var(--light-blue) !important;
+}
+
+.text_white {
+    color: var(--light-white) !important;
+}
+
+.btn_green {
+    background: var(--mian-color-1);
+    color: #fff;
+}
+
+.btn_green:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn_green_outline {
+    background: transparent;
+    color: var(--mian-color-1);
+    border: 1px solid var(--mian-color-1);
+}
+
+.btn_green_outline:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background: var(--mian-color-1);
+}
+
+.text_lightGreen {
+    color: #008009 !important;
+}
+
+.text_red {
+    color: #E51D51 !important;
+}
+
+.text_blue {
+    color: #556CD6 !important;
+}
+
+.text_halfgreen {
+    color: #AFEA30 !important;
+}
+
+.ft_10 {
+    font-size: 10px !important;
+}
+
+.ft_14 {
+    font-size: 14px !important;
+}
+
+.ft_12 {
+    font-size: 12px !important;
+}
+
+.ft_16 {
+    font-size: 16px !important;
+}
+
+.bg_light2 {
+    background: #c5c5c5 !important;
+    border-radius: 20px;
+}
+
+.custom_block {
+    min-height: 300px !important;
+}
+
+
+.cus_selection {
+    display: none !important;
+}
+
+.cus_selection.active {
+    display: block !important;
+}
+
+
+.w_200_h200 {
+    cursor: pointer !important;
+}
+
+.ft_roboto {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.ft_mont {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.ft_poppine {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.ft_relway {
+    font-family: 'Railway', sans-serif !important;
+}
+
+.fw_500 {
+    font-weight: 500 !important;
+}
+
+.ft_18 {
+    font-size: 18px !important;
+}
+
+.ft_14 {
+    font-size: 14px !important;
+}
+
+.ft_12 {
+    font-size: 12px !important;
+}
+
+.ft_16 {
+    font-size: 16px !important;
+}
+
+.cardsh6 h6 {
+    font-weight: 600;
+    color: rgb(41, 41, 41);
+}
+
+.cardsh6 p {
+    color: rgb(41, 41, 41);
+    font-size: 15px !important;
+}
+
+
+
+/*=======================================================
+   Booking Page Stying start from here
+  ===============================================*/
+
+
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.main .heading {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.main .sub_heading {
+    margin-top: 10px;
+    max-width: 50%;
+    font-size: 19px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.btn_addSpaces {
+    background-color: #024138;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 550px) {
+    .main {
+        background-color: #ffffff;
+        height: 100vh;
+        font-family: "Poppins";
+        color: rgb(36, 36, 36);
+    }
+
+    .mainWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .main .heading {
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .main .sub_heading {
+        margin-top: 10px;
+        max-width: 50%;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: start;
+    }
+
+    .btn_addSpaces {
+        background-color: #024138;
+        padding: 10px 20px;
+        margin-top: 25px;
+    }
+}
+
+
+/*=======================================================
+   Earning Page 1 & 2 Stying start from here
+  ===============================================*/
+
+
+.page-item.active .page-link {
+    background-color: #0B3A23 !important;
+    border-color: #0B3A23 !important;
+    color: #fff !important;
+}
+
+.bg_lightgreen {
+    background: #A8F170 !important;
+    color: #0B3A23 !important;
+
+}
+
+.bg_red {
+    background: #FBD3DC !important;
+    color: #C0123C !important;
+
+}
+
+td span {
+    font-weight: normal;
+}
+
+.page-link {
+    color: #000 !important;
+    margin: 0 5px !important;
+    border-radius: 10px !important;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    display: none !important;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: none !important;
+}
+
+
+/*=======================================================
+   Hours Availability Page Stying start from here
+  ===============================================*/
+.toggle-next {
+    border-radius: 0;
+}
+
+label {
+    cursor: pointer;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+}
+.apply-selection {
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+.ajax-link {
+    display: none;
+}
+.checkboxes {
+    margin: 0;
+    display: none;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+.inner-wrap {
+    padding: 5px 10px;
+    max-height: 140px;
+    overflow: auto;
+}
+
+#select-box {
+    max-height: 40px;
+    overflow-y: auto;
+    width: 50px;
+}
+
+/*=======================================================
+   Pricing Page Stying start from here
+  ===============================================*/
+option {
+    overflow-y: scroll !important;
+}
+
+.form-select {
+    display: block;
+    width: auto !important;
+    background-color: #fff;
+    background-image: url(/img/down.png) !important;
+
+}
+
+.form-select:focus {
+    box-shadow: none !important;
+}
+
+td {
+    width: auto !important;
+    white-space: nowrap !important;
+}
+
+.select_button {
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    position: absolute !important;
+    background: #fff !important;
+    color: #000 !important;
+    z-index: 999999 !important;
+}
+
+/*=======================================================
+   Index Page Stying start from here
+  ===============================================*/
+
+#contentw {
+    position: relative;
+    transition: all 0.3s;
+    background-color: rgb(250, 250, 250);
+    height: calc(100vh - 1px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+tbody tr td:nth-child(3) {
+    color: #e51d51;
+}
+
+tbody tr td:nth-child(7) {
+    color: #e51d51;
+}
+
+/*=======================================================
+   Login Page Stying start from here
+  ===============================================*/
+
+.logo {
+    padding: 20px;
+}
+
+.custom_bg {
+    background: url("../img/images/Group\ 9990.svg") no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+    min-height: 800px !important;
+
+}
+
+.login-right2 {
+    background: url("../img/images/Group\ 9990.svg") no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+    min-height: 800px !important;
+
+
+}
+
+.btn-outline-light:hover {
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    background: transparent !important;
+}
+
+.fw_300 {
+    font-weight: 300 !important;
+}
+
+.bg_lightdark {
+    background: #ECEEF0 !important;
+}
+
+.text_darklight {
+    color: #2EC4B6 !important;
+}
+
+/*=======================================================
+   Signup Page Stying start from here
+  ===============================================*/
+.rounded_20 {
+    border-radius: 10px;
+}
+
+.text_custblue {
+    color: #3A86FF !important;
+}
+
+.form-control {
+    font-size: 18px !important;
+}
+
+.form-control:focus {
+    color: #212529;
+    font-size: 20px !important;
+    border-color: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+
+.bg_blue {
+    background: #4267B2 !important;
+    color: #fff !important;
+}
+
+.bg_blue:hover {
+    background: transparent !important;
+    color: #4267B2 !important;
+    border: 1px solid #4267B2 !important;
+}
+
+@media (max-width: 768px) {
+    .custom_bg {
+        background: url("../img/cards/Scroll\ Group\ 1.png") no-repeat !important;
+    }
+
+    .login-right2 {
+        background: url("../img/cards/Scroll\ Group\ 1.png") no-repeat !important;
+    }
+}
+
+
+
+/*=======================================================
+   Publish Page Stying start from here
+  ===============================================*/
+
+
+.congrates-pic {
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+    top: 300px;
+}
+
+.congrates-pic img {
+    height: 300px;
+
+}
+
+.congrates2 {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+
+.btn_publish {
+    background-color: #ffffff;
+    color: #000;
+    font-family: Poppins;
+    border: 1px solid #707070;
+}
+
+/* media quarries for main section */
+@media(max-width:1200px) {
+    .congrates2 {
+        max-width: 200px;
+    }
+}
+
+@media(max-width:700px) {
+    .congrates2 {
+        max-width: 150px;
+    }
+
+    .congrates-pic {
+        bottom: 0;
+        top: 400px;
+        right: 300px;
+    }
+}
+
+@media(max-width:500px) {
+    .congrates2 {
+        max-width: 100px;
+    }
+
+    .congrates-pic {
+        top: 450px;
+        /* right: 400px; */
+        bottom: 0;
+        margin-left: -70px;
+        margin-bottom: -50px;
+    }
+}
+
+@media(max-width:390px) {
+    .congrates-pic {
+        top: 600px;
+        margin-left: -70px;
+    }
+}
+
+
+/*=======================================================
+   Sport-Listing Page Stying start from here
+  ===============================================*/
+
+
+@media(min-width:768px) {
+
+    .border_left {
+        border-right: 1px solid #707070;
+        padding: 5px 0;
+    }
+
+    .h_100 {
+        height: 100px !important;
+    }
+}
+
+@media(max-width:768px) {
+
+    .p_sm_10 {
+        padding: 10px;
+    }
+
+    .h_200 {
+        height: 200px !important;
+    }
+
+    .h_200 img {
+        object-fit: cover !important;
+        height: 100% !important;
+    }
+}
+
+/*=======================================================
+   Website Page Stying start from here
+  ===============================================*/
+
+
+.border_right1 {
+    border-right: 1px solid #aab7c4;
+    padding: 0px 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 15px 0px;
+    color: #000 !important;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
+}
+
+#ckEditor {
+    border: 1px solid #c4c4c4;
+}
+
+.custom_card {
+    position: relative;
+    min-width: 150px;
+    height: auto;
+}
+
+.cus_select {
+    padding: 0 !important;
+    border: 5px solid #afea30 !important;
+    background: radial-gradient(circle at 10% 20%,
+            rgb(69, 86, 102) 0%,
+            rgba(34, 34, 34, 0.685) 90%) !important;
+}
+
+.overlay {
+    position: absolute !important;
+    top: 36%;
+    left: 40%;
+}
+
+.custom-upload {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+}
+
+.tabs-sideBar {
+    width: 19%;
+}
+
+@media (max-width: 900px) {
+    .tabs-sideBar {
+        width: 100%;
+    }
+}
+
+
+/*=======================================================
+   Step Forms Page Stying start from here
+  ===============================================*/
+
+.step-container {
+    position: relative;
+    text-align: center;
+    transform: translateY(-43%);
+}
+
+.step-line {
+    position: absolute;
+    top: 16px;
+    left: 50px;
+    width: calc(100% - 100px);
+    height: 2px;
+    background-color: #024138 !important;
+    z-index: -1;
+}
+
+#multi-step-form {
+    overflow-x: hidden;
+}
+
+.progress-bar {
+    background-color: #024138 !important;
+}
+
+.border_bottom {
+    border-bottom: 3px solid #AFEA30 !important;
+}
+
+.custom_green_card {
+    background: #024138;
+    min-height: 70px !important;
+    position: relative;
+    border-radius: 10px !important;
+    cursor: pointer;
+}
+
+.custom_green_card.active {
+    background: #024138;
+    background: linear-gradient(#afea304a, #afea3073), #024138 !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    display: none;
+
+}
+
+.custom_green_card.active .overlay {
+    display: block !important;
+}
+
+.border_bottom_line {
+    border-bottom: 2px solid #000 !important;
+}
+
+.custom-upload {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media(min-width:998px) {
+
+    .custom_green_card {
+        max-width: 230px !important;
+    }
+}
+
+@media(min-width:768px) {}
+
+@media(max-width:768px) {}
+
+.w_100 {
+    width: 80% !important;
+}
+
+
+.ft_open {
+    font-family: var(--unnamed-font-family-open-sans);
+}

@@ -229,7 +229,7 @@ a:focus {
 .wrapper {
   position: relative;
   /* width: 100%; */
-  /* overflow: auto; */
+  overflow: hidden !important;
   background: rgb(250, 250, 250);
   height: 100vh;
 }
@@ -543,14 +543,11 @@ tbody tr td:nth-child(7) {
    ===============================================*/
 
 /* media quries for top card   */
-@media (max-width: 1450px) {
-}
+@media (max-width: 1450px) {}
 
-@media (max-width: 1140px) {
-}
+@media (max-width: 1140px) {}
 
-@media (max-width: 550px) {
-}
+@media (max-width: 550px) {}
 
 /*=============================================
   bottom card end 
@@ -747,4 +744,13 @@ tbody tr td:nth-child(7) {
 .btn_green:hover {
   color: #fff;
   border: 1px solid #fff;
+}
+
+.bg_light2 {
+  background: #c5c5c5 !important;
+  border-radius: 20px;
+}
+
+.custom_block {
+  min-height: 300px !important;
 }

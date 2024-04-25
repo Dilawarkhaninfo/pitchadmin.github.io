@@ -64,3 +64,18 @@ option {
     box-shadow: none !important;
 }
 
+td {
+    width: auto !important;
+    white-space: nowrap !important;
+    /* Prevent wrapping of content */
+}
+
+#Categories {
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    position: absolute !important;
+    background: #fff !important;
+    color: #000 !important;
+    z-index: 999999 !important;
+}
